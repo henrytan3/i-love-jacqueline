@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/i-love-jacqueline/static/css/main.073c9b0a.css",
-    "main.js": "/i-love-jacqueline/static/js/main.e043f359.js",
+    "main.js": "/i-love-jacqueline/static/js/main.678ac91a.js",
     "static/js/787.698bac4b.chunk.js": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js",
     "static/media/logo.svg": "/i-love-jacqueline/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/i-love-jacqueline/index.html",
     "main.073c9b0a.css.map": "/i-love-jacqueline/static/css/main.073c9b0a.css.map",
-    "main.e043f359.js.map": "/i-love-jacqueline/static/js/main.e043f359.js.map",
+    "main.678ac91a.js.map": "/i-love-jacqueline/static/js/main.678ac91a.js.map",
     "787.698bac4b.chunk.js.map": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.e043f359.js"
+    "static/js/main.678ac91a.js"
   ]
 }
