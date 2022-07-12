@@ -16,6 +16,7 @@ import {
 import Home from './components/Home';
 
 function App() {
+  document.title = "I love Jacqueline!";
   const password = "cb488f5ec8c2bf653af957c72f1120fd1305713aaee1374d8ad7d579212e81f3";
   const [passwordMatched, setPasswordMatched] = useState(true);
   const [passwordValue, setPasswordValue] = useState('');

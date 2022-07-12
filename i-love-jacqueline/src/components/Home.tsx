@@ -11,6 +11,7 @@ import {
     IconButton,
     Text,
     useDisclosure,
+    VStack,
 } from '@chakra-ui/react';
 
 import {
@@ -19,18 +20,7 @@ import {
 } from '@chakra-ui/icons';
 
 const Home = () => {
-    const [drawerIsOpen, setDrawerIsOpen] = useState(false);
     const { isOpen, onOpen, onClose } = useDisclosure();
-
-    const onToggle = () => {
-        onOpen();
-        if (drawerIsOpen) {
-            setDrawerIsOpen(false);
-        }
-        else {
-            setDrawerIsOpen(true);
-        }
-    }
 
     return (
         <>
@@ -40,17 +30,28 @@ const Home = () => {
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
                     ml={{ base: 1 }}
+                    mt={{ base: 1}}
                     display={{ base: 'flex' }}>
                     <IconButton
-                        onClick={onToggle}
+                        onClick={onOpen}
+                        backgroundColor='white'
                         icon={
-                            drawerIsOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
+                            isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
                         }
                         variant={'ghost'}
                         aria-label={'Toggle Navigation'}
                     />
                 </Flex>
             </Box>
+            <VStack spacing={0}
+                    align='stretch'>
+                <Box h='53em' bg='purple.200'>
+                    
+                </Box>
+                <Box h='53em' bg='green.200'>
+                    
+                </Box>
+            </VStack>
             <Drawer
                 placement='right'
                 onClose={onClose}
