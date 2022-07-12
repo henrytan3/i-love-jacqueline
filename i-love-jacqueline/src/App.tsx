@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import sha256 from 'crypto-js/sha256';
 import {
@@ -13,10 +13,11 @@ import {
   FormControl,
   Text
 } from '@chakra-ui/react';
+import Home from './components/Home';
 
 function App() {
   const password = "cb488f5ec8c2bf653af957c72f1120fd1305713aaee1374d8ad7d579212e81f3";
-  const [passwordMatched, setPasswordMatched] = useState(false);
+  const [passwordMatched, setPasswordMatched] = useState(true);
   const [passwordValue, setPasswordValue] = useState('');
   const [passwordIncorrect, setPasswordIncorrect] = useState(false);
   const handleChange = (event: any) => setPasswordValue(event.target.value);
@@ -74,7 +75,7 @@ function App() {
         </AlertDialogOverlay>
       </AlertDialog>
       {passwordMatched &&
-        "asdsa"
+        <Home />
       }
     </div>
   );
