@@ -3,6 +3,7 @@ import {
     Box,
     VStack,
     HStack,
+    Flex,
 } from "@chakra-ui/react"
 import { StyledStack } from "../shared/styledStack"
 import chickenFight from '../../static/images/chicken_fight.jpg';
@@ -98,23 +99,23 @@ export const TwentyTwentyTwo = () => {
                 headerSize='3xl'
                 headerText='Friends Experience 7/2'
                 text={<>
-                    The day we went to the Friends Experience! We got to live out being on the set of Friends, your favorite show! <br/>
-                    I started watching Friends because of you and I loved it! <br/>
-                    You looked so pretty and I felt so special walking through the set with you! <br/>
+                    The day we went to the Friends Experience! We got to live out being on the set of Friends, your favorite show! <br />
+                    I started watching Friends because of you and I loved it! <br />
+                    You looked so pretty and I felt so special walking through the set with you! <br />
                     I love you more and more everyday baby! 🥰
                 </>}></StyledStack>
             <StyledStack
                 height="63em"
                 backgroundColor="teal.200"
                 content={
-                    <HStack>
+                    <VStack>
                         <Box boxSize='sm'>
                             <Image src={jacquelineHighschool} />
                         </Box>
                         <Box boxSize='sm'>
                             <Image src={henryHighschool} />
                         </Box>
-                    </HStack>
+                    </VStack>
                 }
                 headerSize='3xl'
                 headerText="I love you!"
