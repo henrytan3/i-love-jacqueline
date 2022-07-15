@@ -84,7 +84,7 @@ export const TwentyTwentyTwo = () => {
                     We ate so many yummy tacos that night!! Thank you for taking me to Top Taco! <br />
                     It's so crazy I get to call you my girlfriend! 🥰
                 </>}></StyledStack>
-            <StyledStack height="63em"
+            <StyledStack height="72em"
                 backgroundColor="red.200"
                 content={<>
                     <VStack>
