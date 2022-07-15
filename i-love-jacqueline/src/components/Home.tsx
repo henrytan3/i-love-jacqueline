@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import jacquelineWithHugsy from '../static/images/jacqueline_with_hugsy.jpg';
 import {
     Box,
     Button,
@@ -9,17 +10,21 @@ import {
     DrawerOverlay,
     Flex,
     IconButton,
+    Heading,
+    Image,
     Text,
     useDisclosure,
     VStack,
+    Center,
 } from '@chakra-ui/react';
-
 import {
     HamburgerIcon,
     CloseIcon,
 } from '@chakra-ui/icons';
+import { TwentyTwentyTwo } from "./twentyTwentyTwo/twentyTwentyTwo";
 
 const Home = () => {
+    const [ selectedYear, setSelectedYear ] = useState(2022);
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     return (
@@ -30,7 +35,7 @@ const Home = () => {
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
                     ml={{ base: 1 }}
-                    mt={{ base: 1}}
+                    mt={{ base: 1 }}
                     display={{ base: 'flex' }}>
                     <IconButton
                         onClick={onOpen}
@@ -44,13 +49,8 @@ const Home = () => {
                 </Flex>
             </Box>
             <VStack spacing={0}
-                    align='stretch'>
-                <Box h='53em' bg='purple.200'>
-                    
-                </Box>
-                <Box h='53em' bg='green.200'>
-                    
-                </Box>
+                align='stretch'>
+                <TwentyTwentyTwo></TwentyTwentyTwo>
             </VStack>
             <Drawer
                 placement='right'
@@ -63,7 +63,7 @@ const Home = () => {
                             Year
                         </DrawerHeader>
                         <DrawerBody>
-                            <Button>2022</Button>
+                            <Button onClick={() => setSelectedYear(2022)}>2022</Button>
                         </DrawerBody>
                     </DrawerContent>
                 </DrawerOverlay>
