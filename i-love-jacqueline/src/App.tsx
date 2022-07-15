@@ -18,7 +18,7 @@ import Home from './components/Home';
 function App() {
   document.title = "I love Jacqueline!";
   const password = "cb488f5ec8c2bf653af957c72f1120fd1305713aaee1374d8ad7d579212e81f3";
-  const [passwordMatched, setPasswordMatched] = useState(true);
+  const [passwordMatched, setPasswordMatched] = useState(false);
   const [passwordValue, setPasswordValue] = useState('');
   const [passwordIncorrect, setPasswordIncorrect] = useState(false);
   const handleChange = (event: any) => setPasswordValue(event.target.value);
