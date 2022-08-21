@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import jacquelineWithHugsy from '../static/images/jacqueline_with_hugsy.jpg';
+import React, { useState } from "react";
 import {
     Box,
     Button,
@@ -10,12 +9,8 @@ import {
     DrawerOverlay,
     Flex,
     IconButton,
-    Heading,
-    Image,
-    Text,
     useDisclosure,
-    VStack,
-    Center,
+    VStack
 } from '@chakra-ui/react';
 import {
     HamburgerIcon,

@@ -1,9 +1,7 @@
 import {
     Image,
     Box,
-    VStack,
-    HStack,
-    Flex,
+    VStack
 } from "@chakra-ui/react"
 import { StyledStack } from "../shared/styledStack"
 import chickenFight from '../../static/images/chicken_fight.jpg';
@@ -12,6 +10,7 @@ import topTaco from '../../static/videos/top_taco.mp4';
 import painting from '../../static/images/painting.jpg';
 import friendsExperience from '../../static/images/friendsExperience.jpg';
 import friendsExperience2 from '../../static/images/friendsExperience2.jpg';
+import sunflowerFields from '../../static/images/sunflower_fields.jpg';
 import jacquelineHighschool from '../../static/images/jacqueline_highschool.jpg';
 import henryHighschool from '../../static/images/henry_highschool.jpg'
 
@@ -104,8 +103,27 @@ export const TwentyTwentyTwo = () => {
                     You looked so pretty and I felt so special walking through the set with you! <br />
                     I love you more and more everyday baby! 🥰
                 </>}></StyledStack>
+            <StyledStack 
+                height="56em"
+                backgroundColor="orange.200"
+                content={
+                    <>
+                    <Box boxSize='md'
+                         mb='14em'>
+                        <Image src={sunflowerFields}/>
+                    </Box>
+                    </>
+                }
+                headerSize='3xl'
+                headerText="Sunflower Fields 8/13"
+                text={<>
+                My beautiful sunflower in a field of sunflowers!! 🌻 <br />
+                Our sunflowers turned out so pretty! <br />
+                Just like you my love! 😍 <br />
+                I had sooo much fun with you that day! I love you! ❤️
+                </>}></StyledStack>
             <StyledStack
-                height="63em"
+                height="56em"
                 backgroundColor="teal.200"
                 content={
                     <VStack>
