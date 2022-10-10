@@ -12,7 +12,8 @@ import friendsExperience from '../../static/images/friendsExperience.jpg';
 import friendsExperience2 from '../../static/images/friendsExperience2.jpg';
 import sunflowerFields from '../../static/images/sunflower_fields.jpg';
 import jacquelineHighschool from '../../static/images/jacqueline_highschool.jpg';
-import henryHighschool from '../../static/images/henry_highschool.jpg'
+import henryHighschool from '../../static/images/henry_highschool.jpg';
+import odesza from '../../static/images/odesza.jpg';
 
 export const TwentyTwentyTwo = () => {
     return (
@@ -122,6 +123,26 @@ export const TwentyTwentyTwo = () => {
                 Just like you my love! 😍 <br />
                 I had sooo much fun with you that day! I love you! ❤️
                 </>}></StyledStack>
+                <StyledStack
+                height="56em"
+                backgroundColor="blue.400"
+                content={
+                    <>
+                    <Box boxSize='md'
+                         mb='14em'>
+                        <Image src={odesza}/>
+                    </Box>
+                    </>
+                }
+                headerSize='3xl'
+                headerText="ODESZA 9/17"
+                text={<>
+                ODESZA!!! <br />
+                This was one of the best shows I've ever seen!!<br />
+                And it was even better with you baby!!  😘<br />
+                You are the one I need I love you!
+                </>}
+            ></StyledStack>
             <StyledStack
                 height="56em"
                 backgroundColor="teal.200"
