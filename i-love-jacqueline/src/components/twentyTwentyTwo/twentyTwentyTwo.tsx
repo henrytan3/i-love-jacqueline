@@ -14,6 +14,7 @@ import sunflowerFields from '../../static/images/sunflower_fields.jpg';
 import jacquelineHighschool from '../../static/images/jacqueline_highschool.jpg';
 import henryHighschool from '../../static/images/henry_highschool.jpg';
 import odesza from '../../static/images/odesza.jpg';
+import pumpkinPatch from '../../static/images/pumpkin_patch.jpg';
 
 export const TwentyTwentyTwo = () => {
     return (
@@ -34,7 +35,7 @@ export const TwentyTwentyTwo = () => {
                     </Box>
                 }
                 text={<>This web diary is dedicated to my beautiful, funny, sweet, and kind girlfriend Jacqueline. <br />
-                    I decided to make this to showcase some of memories together with some cute messages. <br />
+                    I decided to make this to showcase some of our memories together with some cute messages. <br />
                     I hope you like it! I love you forever! ❤️ 😘
                 </>}
             ></StyledStack>
@@ -104,43 +105,63 @@ export const TwentyTwentyTwo = () => {
                     You looked so pretty and I felt so special walking through the set with you! <br />
                     I love you more and more everyday baby! 🥰
                 </>}></StyledStack>
-            <StyledStack 
-                height="56em"
+            <StyledStack
+                height="58em"
                 backgroundColor="orange.200"
                 content={
                     <>
-                    <Box boxSize='md'
-                         mb='14em'>
-                        <Image src={sunflowerFields}/>
-                    </Box>
+                        <Box boxSize='md'
+                            mb='14em'>
+                            <Image src={sunflowerFields} />
+                        </Box>
                     </>
                 }
                 headerSize='3xl'
                 headerText="Sunflower Fields 8/13"
                 text={<>
-                My beautiful sunflower in a field of sunflowers!! 🌻 <br />
-                Our sunflowers turned out so pretty! <br />
-                Just like you my love! 😍 <br />
-                I had sooo much fun with you that day! I love you! ❤️
+                    My beautiful sunflower in a field of sunflowers!! 🌻 <br />
+                    Our sunflowers turned out so pretty! <br />
+                    Just like you my love! 😍 <br />
+                    I had sooo much fun with you that day! I love you! ❤️
                 </>}></StyledStack>
-                <StyledStack
+            <StyledStack
                 height="56em"
                 backgroundColor="blue.400"
                 content={
                     <>
-                    <Box boxSize='md'
-                         mb='14em'>
-                        <Image src={odesza}/>
-                    </Box>
+                        <Box boxSize='md'
+                            mb='10em'>
+                            <Image src={odesza} />
+                        </Box>
                     </>
                 }
                 headerSize='3xl'
                 headerText="ODESZA 9/17"
                 text={<>
-                ODESZA!!! <br />
-                This was one of the best shows I've ever seen!!<br />
-                And it was even better with you baby!!  😘<br />
-                You are the one I need I love you!
+                    ODESZA!!! <br />
+                    This was one of the best shows I've ever seen!!<br />
+                    And it was even better with you baby!!  😘<br />
+                    You are the one I need I love you!
+                </>}
+            ></StyledStack>
+            <StyledStack
+                height="56em"
+                backgroundColor="yellow.400"
+                content={
+                    <>
+                        <Box boxSize='md'
+                            mb='10em'>
+                            <Image src={pumpkinPatch} />
+                        </Box>
+                    </>
+                }
+                headerSize='3xl'
+                headerText="Pumpkin patch 10/8"
+                text={<>
+                    ODESZA!!! <br />
+                    This was one of the best shows I've ever seen!!<br />
+                    And it was even better with you baby!!  😘<br />
+                    You are the one I need I love you!
                 </>}
             ></StyledStack>
             <StyledStack
