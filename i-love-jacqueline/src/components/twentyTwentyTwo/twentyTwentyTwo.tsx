@@ -156,12 +156,11 @@ export const TwentyTwentyTwo = () => {
                     </>
                 }
                 headerSize='3xl'
-                headerText="Pumpkin patch 10/8"
+                headerText="Pumpkin Patch 10/8"
                 text={<>
-                    ODESZA!!! <br />
-                    This was one of the best shows I've ever seen!!<br />
-                    And it was even better with you baby!!  😘<br />
-                    You are the one I need I love you!
+                    We went to look for cute pumpkins,<br />
+                    but I already have the cutest pumpkin in the world!!<br />
+                    I love you pumpkin!!! 🎃🧡😘<br />
                 </>}
             ></StyledStack>
             <StyledStack
