@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/i-love-jacqueline/static/css/main.073c9b0a.css",
-    "main.js": "/i-love-jacqueline/static/js/main.1adba57c.js",
+    "main.js": "/i-love-jacqueline/static/js/main.d3ab93c7.js",
     "static/js/787.698bac4b.chunk.js": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js",
     "static/media/top_taco.mp4": "/i-love-jacqueline/static/media/top_taco.4333c05495fbf75e6e87.mp4",
     "static/media/sunflower_fields.jpg": "/i-love-jacqueline/static/media/sunflower_fields.72ccc71c1317c95e94f5.jpg",
     "static/media/friendsExperience2.jpg": "/i-love-jacqueline/static/media/friendsExperience2.fda4e83b42e10ff79750.jpg",
     "static/media/painting.jpg": "/i-love-jacqueline/static/media/painting.6a687a98bb33aa1e6f69.jpg",
+    "static/media/pumpkin_patch.jpg": "/i-love-jacqueline/static/media/pumpkin_patch.a229b14f274cbe908690.jpg",
     "static/media/friendsExperience.jpg": "/i-love-jacqueline/static/media/friendsExperience.5b04c2672eb8a758d223.jpg",
     "static/media/jacqueline_with_hugsy.jpg": "/i-love-jacqueline/static/media/jacqueline_with_hugsy.61f7f0230febdf322b98.jpg",
     "static/media/odesza.jpg": "/i-love-jacqueline/static/media/odesza.e78dd8a27ca8f04a9708.jpg",
@@ -15,11 +16,11 @@
     "static/media/chicken_fight.jpg": "/i-love-jacqueline/static/media/chicken_fight.e51a715f7c4275f2a67a.jpg",
     "index.html": "/i-love-jacqueline/index.html",
     "main.073c9b0a.css.map": "/i-love-jacqueline/static/css/main.073c9b0a.css.map",
-    "main.1adba57c.js.map": "/i-love-jacqueline/static/js/main.1adba57c.js.map",
+    "main.d3ab93c7.js.map": "/i-love-jacqueline/static/js/main.d3ab93c7.js.map",
     "787.698bac4b.chunk.js.map": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1adba57c.js"
+    "static/js/main.d3ab93c7.js"
   ]
 }
