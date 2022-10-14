@@ -17,17 +17,34 @@ import odesza from '../../static/images/odesza.jpg';
 import pumpkinPatch from '../../static/images/pumpkin_patch.jpg';
 
 export const TwentyTwentyTwo = () => {
+    const stackSizeSm = [
+        '53em',
+        '56em',
+    ];
+    const boxSizes = [
+        'xs',
+        'sm',
+    ];
+
+    const marginBottomsSm = {
+        sm: ''
+    };
+
+    const marginBottomsMd = {
+
+    }
+
     return (
         <>
 
             <StyledStack
-                height="56em"
+                height={stackSizeSm}
                 backgroundColor="purple.200"
                 headerSize='4xl'
                 headerText='Dear Jacqueline'
                 content={
                     <Box
-                        boxSize='sm'
+                        boxSize={boxSizes}
                         mb='13em'>
                         <Image
                             src={jacquelineWithHugsy}
@@ -71,13 +88,14 @@ export const TwentyTwentyTwo = () => {
                 </>}></StyledStack>
             <StyledStack height="56em"
                 backgroundColor="yellow.200"
-                content={<video
+                content={<Box mb='2em'><video
                     width='500px'
                     height='400px'
                     controls
                     autoPlay
                     src={topTaco}>
-                </video>}
+                    </video>
+                    </Box>}
                 headerSize='3xl'
                 headerText='Top Taco 6/23'
                 text={<>
@@ -111,7 +129,7 @@ export const TwentyTwentyTwo = () => {
                 content={
                     <>
                         <Box boxSize='md'
-                            mb='14em'>
+                            mb={['12em', '14em']}>
                             <Image src={sunflowerFields} />
                         </Box>
                     </>

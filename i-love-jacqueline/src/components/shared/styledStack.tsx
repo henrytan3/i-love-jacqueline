@@ -2,7 +2,7 @@ import { Box, Center, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 
 interface Props {
-    height: string,
+    height: any,
     backgroundColor: string,
     content: any,
     text: any,
