@@ -9,9 +9,11 @@ import {
   AlertDialogBody,
   AlertDialogFooter,
   Input,
+  InputRightElement,
   Button,
   FormControl,
-  Text
+  Text,
+  InputGroup
 } from '@chakra-ui/react';
 import Home from './components/Home';
 
@@ -23,6 +25,8 @@ function App() {
   const [passwordIncorrect, setPasswordIncorrect] = useState(false);
   const handleChange = (event: any) => setPasswordValue(event.target.value);
   const cancelRef = React.useRef<any>();
+  const [showPassword, setShowPassword] = useState(false);
+  const handleShowPasswordClick = () => setShowPassword(!showPassword);
 
   const checkPassword = () => {
     const passwordHashed = sha256(passwordValue).toString();
@@ -49,17 +53,25 @@ function App() {
             </AlertDialogHeader>
             <AlertDialogBody>
               <FormControl isRequired>
+                <InputGroup>
                 <Input
                   value={passwordValue}
                   onChange={handleChange}
                   pr='4.5rem'
-                  type={false ? 'text' : 'password'}
+                  type={showPassword ? 'text' : 'password'}
                   onKeyUp={event => {
                     if (event.key === 'Enter') {
                       checkPassword();
                     }
                   }}
                   placeholder='Password' />
+                  <InputRightElement width='4.5rem'>
+                    <Button h='1.75rem' 
+                            size='sm'
+                            onClick={handleShowPasswordClick}>{showPassword ? 'Hide' : 'Show'}
+                    </Button>
+                  </InputRightElement>
+                  </InputGroup>
                 {passwordIncorrect &&
                   <Text color='red'>
                     Password is incorrect

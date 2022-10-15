@@ -182,7 +182,7 @@ export const TwentyTwentyTwo = () => {
                 </>}
             ></StyledStack>
             <StyledStack
-                height="56em"
+                height="58em"
                 backgroundColor="teal.200"
                 content={
                     <VStack>
