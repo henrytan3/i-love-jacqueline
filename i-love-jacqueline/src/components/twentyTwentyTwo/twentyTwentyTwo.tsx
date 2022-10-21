@@ -194,7 +194,7 @@ export const TwentyTwentyTwo = () => {
                     </>
                 }
                 headerSize='3xl'
-                headerText="Pumpkin Putt 10/15"
+                headerText="Pixar Putt 10/15"
                 text={<>
                     Mini golf!! With our favorite pixar movies!! 😊<br />
                     You won this time baby! I'll get you next time 😡<br />
