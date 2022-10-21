@@ -14,7 +14,8 @@ import sunflowerFields from '../../static/images/sunflower_fields.jpg';
 import jacquelineHighschool from '../../static/images/jacqueline_highschool.jpg';
 import henryHighschool from '../../static/images/henry_highschool.jpg';
 import odesza from '../../static/images/odesza.jpg';
-import pumpkinPatch from '../../static/images/pumpkin_patch.jpg';
+import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
+import pixarPutt from '../../static/images/pixar_putt.jpg';
 
 export const TwentyTwentyTwo = () => {
     const stackSizeSm = [
@@ -179,6 +180,26 @@ export const TwentyTwentyTwo = () => {
                     We went to look for cute pumpkins,<br />
                     but I already have the cutest pumpkin in the world!!<br />
                     I love you pumpkin!!! 🎃🧡😘<br />
+                </>}
+            ></StyledStack>
+            <StyledStack
+                height="56em"
+                backgroundColor="purple.400"
+                content={
+                    <>
+                        <Box boxSize='md'
+                            mb='10em'>
+                            <Image src={pixarPutt} />
+                        </Box>
+                    </>
+                }
+                headerSize='3xl'
+                headerText="Pumpkin Putt 10/15"
+                text={<>
+                    Mini golf!! With our favorite pixar movies!! 😊<br />
+                    You won this time baby! I'll get you next time 😡<br />
+                    We're 1-1 in mini golf now honey! 😘<br />
+                    I have such a talented girlfriend! 🥰
                 </>}
             ></StyledStack>
             <StyledStack
