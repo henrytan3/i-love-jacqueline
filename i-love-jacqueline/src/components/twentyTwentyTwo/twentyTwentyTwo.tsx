@@ -16,6 +16,7 @@ import henryHighschool from '../../static/images/henry_highschool.jpg';
 import odesza from '../../static/images/odesza.jpg';
 import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
 import pixarPutt from '../../static/images/pixar_putt.jpg';
+import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg';
 
 export const TwentyTwentyTwo = () => {
     const stackSizeSm = [
@@ -200,6 +201,25 @@ export const TwentyTwentyTwo = () => {
                     You won this time baby! I'll get you next time 😡<br />
                     We're 1-1 in mini golf now honey! 😘<br />
                     I have such a talented girlfriend! 🥰
+                </>}
+            ></StyledStack>
+            <StyledStack
+                height="52em"
+                backgroundColor="green.400"
+                content={
+                    <>
+                        <Box boxSize='md'>
+                            <Image src={gingerBreadHouses} />
+                        </Box>
+                    </>
+                }
+                headerSize='3xl'
+                headerText="Gingerbread Houses 12/16"
+                text={<>
+                    Gingerbread houses!! Woo!! 🎄<br />
+                    The frosting in the kits weren't that great, but<br />
+                    you still did such a good job honey! 😊<br />
+                    You're so good at ginger bread houses baby! 😘
                 </>}
             ></StyledStack>
             <StyledStack
