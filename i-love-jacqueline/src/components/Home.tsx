@@ -17,6 +17,7 @@ import {
     CloseIcon,
 } from '@chakra-ui/icons';
 import { TwentyTwentyTwo } from "./twentyTwentyTwo/twentyTwentyTwo";
+import TwentyTwentyThree from "./twentyTwentyThree/twentyTwentyThree";
 
 const Home = () => {
     const [ selectedYear, setSelectedYear ] = useState(2022);
@@ -45,7 +46,8 @@ const Home = () => {
             </Box>
             <VStack spacing={0}
                 align='stretch'>
-                <TwentyTwentyTwo></TwentyTwentyTwo>
+                {selectedYear === 2022 && <TwentyTwentyTwo/>}
+                {selectedYear === 2023 && <TwentyTwentyThree />}
             </VStack>
             <Drawer
                 placement='right'
@@ -59,6 +61,7 @@ const Home = () => {
                         </DrawerHeader>
                         <DrawerBody>
                             <Button onClick={() => setSelectedYear(2022)}>2022</Button>
+                            <Button onClick={() => setSelectedYear(2023)}>2023</Button>
                         </DrawerBody>
                     </DrawerContent>
                 </DrawerOverlay>

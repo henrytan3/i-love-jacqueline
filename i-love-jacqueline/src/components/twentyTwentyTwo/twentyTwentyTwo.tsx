@@ -28,17 +28,8 @@ export const TwentyTwentyTwo = () => {
         'sm',
     ];
 
-    const marginBottomsSm = {
-        sm: ''
-    };
-
-    const marginBottomsMd = {
-
-    }
-
     return (
         <>
-
             <StyledStack
                 height={stackSizeSm}
                 backgroundColor="purple.200"
@@ -204,7 +195,7 @@ export const TwentyTwentyTwo = () => {
                 </>}
             ></StyledStack>
             <StyledStack
-                height="52em"
+                height="56em"
                 backgroundColor="green.400"
                 content={
                     <>
