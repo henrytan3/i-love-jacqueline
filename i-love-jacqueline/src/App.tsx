@@ -19,7 +19,7 @@ import Home from './components/Home';
 
 function App() {
   document.title = "I love Jacqueline!";
-  const password = "cb488f5ec8c2bf653af957c72f1120fd1305713aaee1374d8ad7d579212e81f3";
+  const password = "cae63e8236f3c1de3bcaf9237b1bfaf464864ddf36dcf75695cbc150589b76bc";
   const [passwordMatched, setPasswordMatched] = useState(false);
   const [passwordValue, setPasswordValue] = useState('');
   const [passwordIncorrect, setPasswordIncorrect] = useState(false);

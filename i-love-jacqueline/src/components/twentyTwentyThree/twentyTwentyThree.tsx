@@ -39,32 +39,22 @@ const TwentyTwentyThree = () => {
             </>}
         ></StyledStack>
         <StyledStack
-            height='80em'
+            height={{base: '130em', lg: '80em'}}
             backgroundColor="purple.200"
             headerSize='4xl'
             headerText='Home-okase 3/10'
             content={
-                <Grid templateRows='repeat(2, 1fr)'
-                templateColumns='repeat(4, 1fr)'
-                gap={4}>
-                    <GridItem colSpan={2}>
-                        <Box
+                <SimpleGrid columns={{base: 1, sm: 1, lg: 2}} gap={4}>
+                    <Box
                             boxSize={boxSizes} mb='8em'>
                             <Image
                                 src={homeokase1}
                             />
                         </Box>
-                    </GridItem>
-                    <GridItem colSpan={2}>
                         <Box boxSize={boxSizes} mb='8em'><Image src={homeokase2}/></Box>
-                    </GridItem>
-                    <GridItem colSpan={2}>
                         <Box boxSize={boxSizes} mb='8em'><Image src={homeokase3} /></Box>
-                    </GridItem>
-                    <GridItem colSpan={2}>
                         <Box boxSize={boxSizes} mb='8em'><Image src={homeokase4} /></Box>
-                    </GridItem>
-                </Grid>
+                </SimpleGrid>
             }
             text={<>
                 Our first home-okase! 😋 <br />
