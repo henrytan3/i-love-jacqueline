@@ -11,6 +11,8 @@ import oneYearFlowers from '../../static/images/one_year_flowers.jpg'
 import oneYearDinner from '../../static/images/one_year_dinner.jpg'
 import illenium1 from '../../static/images/illenium1.jpg'
 import illenium2 from '../../static/images/illenium2.jpg'
+import puttShack1 from '../../static/images/putt_shack.jpg'
+import puttShack2 from '../../static/images/putt_shack2.jpg'
 
 const TwentyTwentyThree = () => {
     const stackSizeSm = [
@@ -145,6 +147,23 @@ const TwentyTwentyThree = () => {
                 Omg this show was so good!!! <br/>
                 From the music to the drone show!<br/>
                 It was so beautiful but nothing is as beautiful as you!! 😘
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="purple.200"
+            headerSize='4xl'
+            headerText='Putt Shack 7/3'
+            content={
+                <SimpleGrid columns={{base: 1, sm: 1, lg: 2}} gap={4}>
+                    <Box boxSize={boxSizes} mb='8em'><Image src={puttShack1} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image src={puttShack2} /></Box>
+                </SimpleGrid>
+            }
+            text={<>
+                When we went to Putt Shack! 🏌🏻‍♀️🏌🏻<br/>
+                You beat me so hard!!! 😡 <br/>
+                You're up now 2-1 in mini golf but I'll get you next time baby!!! 😝 <br/>
             </>}
         ></StyledStack>
     </>
