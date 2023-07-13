@@ -143,7 +143,7 @@ const TwentyTwentyThree = () => {
                 </SimpleGrid>
             }
             text={<>
-                WHEN WE WENT TO ILLENIUM TOGETHER!!! 🥰☺️ <br/>
+                WHEN WE WENT TO ILLENIUM TOGETHER!!! 🥰😘 <br/>
                 Omg this show was so good!!! <br/>
                 From the music to the drone show!<br/>
                 It was so beautiful but nothing is as beautiful as you!! 😘
