@@ -94,7 +94,7 @@ const TwentyTwentyThree = () => {
             height={stackSizeSm}
             backgroundColor="orange.200"
             headerSize='4xl'
-            headerText='Studio Ghibli Candlelight Convert 4/21'
+            headerText='Studio Ghibli Candlelight Concert 4/21'
             content={
                 <Box
                     boxSize={boxSizes}
