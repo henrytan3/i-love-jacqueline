@@ -88,6 +88,27 @@ const TwentyTwentyThree = () => {
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}
+            backgroundColor="blue.200"
+            headerSize='4xl'
+            headerText='Studio Ghibli Candlelight Convert 4/21'
+            content={
+                <Box
+                    boxSize={boxSizes}
+                    mb='10em'>
+                    <Image
+                        src={ghibliConcert}
+                    />
+                </Box>
+            }
+            text={<>
+                When we went to the Studio Ghibli Concert baby!!!🎶🎵 <br/>
+                We got to listen to all our favorites from <br/>
+                Kiki's Delivery Service to Howl's Moving Castle <br/>
+                This night was so amazing and magical! 
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
             backgroundColor="yellow.200"
             headerSize='4xl'
             headerText='One year anniversary 5/7'
