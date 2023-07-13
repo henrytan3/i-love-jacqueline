@@ -9,6 +9,8 @@ import upstairsCircus from '../../static/images/upstairs_circus.jpg'
 import ghibliConcert from '../../static/images/ghibli_concert.jpg'
 import oneYearFlowers from '../../static/images/one_year_flowers.jpg'
 import oneYearDinner from '../../static/images/one_year_dinner.jpg'
+import illenium1 from '../../static/images/illenium1.jpg'
+import illenium2 from '../../static/images/illenium2.jpg'
 
 const TwentyTwentyThree = () => {
     const stackSizeSm = [
@@ -88,7 +90,7 @@ const TwentyTwentyThree = () => {
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}
-            backgroundColor="blue.200"
+            backgroundColor="orange.200"
             headerSize='4xl'
             headerText='Studio Ghibli Candlelight Convert 4/21'
             content={
@@ -125,6 +127,24 @@ const TwentyTwentyThree = () => {
                 You mean the world to me! You're the love of my life! <br/>
                 I wouldn't have it any other way baby! <br/>
                 I love you so much!
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="pink.200"
+            headerSize='4xl'
+            headerText='ILLENIUM 6/24'
+            content={
+                <SimpleGrid columns={{base: 1, sm: 1, lg: 2}} gap={4}>
+                    <Box boxSize={boxSizes} mb='8em'><Image src={illenium1} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image src={illenium2} /></Box>
+                </SimpleGrid>
+            }
+            text={<>
+                WHEN WE WENT TO ILLENIUM TOGETHER!!! 🥰☺️ <br/>
+                Omg this show was so good!!! <br/>
+                From the music to the drone show!<br/>
+                It was so beautiful but nothing is as beautiful as you!! 😘
             </>}
         ></StyledStack>
     </>
