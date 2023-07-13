@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i-love-jacqueline/static/css/main.073c9b0a.css",
-    "main.js": "/i-love-jacqueline/static/js/main.84d2bd7e.js",
+    "main.js": "/i-love-jacqueline/static/js/main.81907994.js",
     "static/js/787.698bac4b.chunk.js": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js",
     "static/media/top_taco.mp4": "/i-love-jacqueline/static/media/top_taco.4333c05495fbf75e6e87.mp4",
     "static/media/sunflower_fields.jpg": "/i-love-jacqueline/static/media/sunflower_fields.72ccc71c1317c95e94f5.jpg",
@@ -17,8 +17,11 @@
     "static/media/home_okase_3.jpg": "/i-love-jacqueline/static/media/home_okase_3.1203ea0ea4ffb4c16713.jpg",
     "static/media/home_okase_1.jpg": "/i-love-jacqueline/static/media/home_okase_1.3928a4f847f49d3bf5ce.jpg",
     "static/media/one_year_flowers.jpg": "/i-love-jacqueline/static/media/one_year_flowers.8b563f8d40d4e69ac044.jpg",
+    "static/media/ghibli_concert.jpg": "/i-love-jacqueline/static/media/ghibli_concert.844b7b1200c9102008b2.jpg",
     "static/media/home_okase_2.jpg": "/i-love-jacqueline/static/media/home_okase_2.0e1e3fe482f0972a43c9.jpg",
     "static/media/one_year_dinner.jpg": "/i-love-jacqueline/static/media/one_year_dinner.3d259cec567f1b3c28f6.jpg",
+    "static/media/illenium2.jpg": "/i-love-jacqueline/static/media/illenium2.ac2d6d7cc4b37f83f2a3.jpg",
+    "static/media/illenium1.jpg": "/i-love-jacqueline/static/media/illenium1.8dbd522982e3417a4de7.jpg",
     "static/media/odesza.jpg": "/i-love-jacqueline/static/media/odesza.e78dd8a27ca8f04a9708.jpg",
     "static/media/birthday.jpg": "/i-love-jacqueline/static/media/birthday.8a86dd41517553e2cc6a.jpg",
     "static/media/henry_highschool.jpg": "/i-love-jacqueline/static/media/henry_highschool.4df1184326905498588f.jpg",
@@ -26,11 +29,11 @@
     "static/media/chicken_fight.jpg": "/i-love-jacqueline/static/media/chicken_fight.e51a715f7c4275f2a67a.jpg",
     "index.html": "/i-love-jacqueline/index.html",
     "main.073c9b0a.css.map": "/i-love-jacqueline/static/css/main.073c9b0a.css.map",
-    "main.84d2bd7e.js.map": "/i-love-jacqueline/static/js/main.84d2bd7e.js.map",
+    "main.81907994.js.map": "/i-love-jacqueline/static/js/main.81907994.js.map",
     "787.698bac4b.chunk.js.map": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.84d2bd7e.js"
+    "static/js/main.81907994.js"
   ]
 }
