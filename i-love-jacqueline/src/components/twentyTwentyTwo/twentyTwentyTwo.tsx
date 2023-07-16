@@ -17,10 +17,11 @@ import odesza from '../../static/images/odesza.jpg';
 import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
 import pixarPutt from '../../static/images/pixar_putt.jpg';
 import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg';
+import pompomCheeks from '../../static/videos/pompom_cheeks.gif';
 
 export const TwentyTwentyTwo = () => {
     const stackSizeSm = [
-        '53em',
+        '55em',
         '56em',
     ];
     const boxSizes = [
@@ -47,6 +48,7 @@ export const TwentyTwentyTwo = () => {
                 text={<>This web diary is dedicated to my beautiful, funny, sweet, and kind girlfriend Jacqueline. <br />
                     I decided to make this to showcase some of our memories together with some cute messages. <br />
                     I hope you like it! I love you forever! ❤️ 😘
+                    <Image boxSize='100px' style={{ transform: 'translate(10%, -20%)' }} src={pompomCheeks} />
                 </>}
             ></StyledStack>
             <StyledStack
