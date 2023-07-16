@@ -20,7 +20,7 @@ import { TwentyTwentyTwo } from "./twentyTwentyTwo/twentyTwentyTwo";
 import TwentyTwentyThree from "./twentyTwentyThree/twentyTwentyThree";
 
 const Home = () => {
-    const [ selectedYear, setSelectedYear ] = useState(2022);
+    const [selectedYear, setSelectedYear] = useState(2022);
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     return (
@@ -46,7 +46,7 @@ const Home = () => {
             </Box>
             <VStack spacing={0}
                 align='stretch'>
-                {selectedYear === 2022 && <TwentyTwentyTwo/>}
+                {selectedYear === 2022 && <TwentyTwentyTwo />}
                 {selectedYear === 2023 && <TwentyTwentyThree />}
             </VStack>
             <Drawer

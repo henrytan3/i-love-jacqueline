@@ -87,8 +87,8 @@ export const TwentyTwentyTwo = () => {
                     controls
                     autoPlay
                     src={topTaco}>
-                    </video>
-                    </Box>}
+                </video>
+                </Box>}
                 headerSize='3xl'
                 headerText='Top Taco 6/23'
                 text={<>

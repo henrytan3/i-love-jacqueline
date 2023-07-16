@@ -55,33 +55,33 @@ function App() {
         <AlertDialogOverlay>
           <AlertDialogContent>
             <AlertDialogHeader fontSize='lg' fontWeight='bold'>
-            <SimpleGrid columns={{base: 2, sm: 2, lg: 2}} gap={4}>
-                    <span>Enter Password</span>
+              <SimpleGrid columns={{ base: 2, sm: 2, lg: 2 }} gap={4}>
+                <span>Enter Password</span>
                 <Image align="end" boxSize='50px' src={pompomGIF} />
-                </SimpleGrid>
+              </SimpleGrid>
             </AlertDialogHeader>
-            
+
             <AlertDialogBody>
               <FormControl isRequired>
                 <InputGroup>
-                <Input
-                  value={passwordValue}
-                  onChange={handleChange}
-                  pr='4.5rem'
-                  type={showPassword ? 'text' : 'password'}
-                  onKeyUp={event => {
-                    if (event.key === 'Enter') {
-                      checkPassword();
-                    }
-                  }}
-                  placeholder='Password' />
+                  <Input
+                    value={passwordValue}
+                    onChange={handleChange}
+                    pr='4.5rem'
+                    type={showPassword ? 'text' : 'password'}
+                    onKeyUp={event => {
+                      if (event.key === 'Enter') {
+                        checkPassword();
+                      }
+                    }}
+                    placeholder='Password' />
                   <InputRightElement width='4.5rem'>
-                    <Button h='1.75rem' 
-                            size='sm'
-                            onClick={handleShowPasswordClick}>{showPassword ? 'Hide' : 'Show'}
+                    <Button h='1.75rem'
+                      size='sm'
+                      onClick={handleShowPasswordClick}>{showPassword ? 'Hide' : 'Show'}
                     </Button>
                   </InputRightElement>
-                  </InputGroup>
+                </InputGroup>
                 {passwordIncorrect &&
                   <Text color='red'>
                     Password is incorrect

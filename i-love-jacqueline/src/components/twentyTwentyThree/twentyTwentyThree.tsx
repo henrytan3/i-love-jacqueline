@@ -47,21 +47,21 @@ const TwentyTwentyThree = () => {
             </>}
         ></StyledStack>
         <StyledStack
-            height={{base: '130em', lg: '80em'}}
+            height={{ base: '130em', lg: '80em' }}
             backgroundColor="purple.200"
             headerSize='4xl'
             headerText='Home-okase 3/10'
             content={
-                <SimpleGrid columns={{base: 1, sm: 1, lg: 2}} gap={4}>
+                <SimpleGrid columns={{ base: 1, sm: 1, lg: 2 }} gap={4}>
                     <Box
-                            boxSize={boxSizes} mb='8em'>
-                            <Image
-                                src={homeokase1}
-                            />
-                        </Box>
-                        <Box boxSize={boxSizes} mb='8em'><Image src={homeokase2}/></Box>
-                        <Box boxSize={boxSizes} mb='8em'><Image src={homeokase3} /></Box>
-                        <Box boxSize={boxSizes} mb='8em'><Image src={homeokase4} /></Box>
+                        boxSize={boxSizes} mb='8em'>
+                        <Image
+                            src={homeokase1}
+                        />
+                    </Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image src={homeokase2} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image src={homeokase3} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image src={homeokase4} /></Box>
                 </SimpleGrid>
             }
             text={<>
@@ -85,8 +85,8 @@ const TwentyTwentyThree = () => {
                 </Box>
             }
             text={<>
-                When we went to Upstairs Circus baby! 😘<br/>
-                You're so artistic baby! I love your Denver city skyline<br/>
+                When we went to Upstairs Circus baby! 😘<br />
+                You're so artistic baby! I love your Denver city skyline<br />
                 I'm so lucky to be with someone so talented!!! 🥰
             </>}
         ></StyledStack>
@@ -105,10 +105,10 @@ const TwentyTwentyThree = () => {
                 </Box>
             }
             text={<>
-                When we went to the Studio Ghibli Concert baby!!!🎶🎵 <br/>
-                We got to listen to all our favorites from <br/>
-                Kiki's Delivery Service to Howl's Moving Castle <br/>
-                This night was so amazing and magical! 
+                When we went to the Studio Ghibli Concert baby!!!🎶🎵 <br />
+                We got to listen to all our favorites from <br />
+                Kiki's Delivery Service to Howl's Moving Castle <br />
+                This night was so amazing and magical!
             </>}
         ></StyledStack>
         <StyledStack
@@ -117,17 +117,17 @@ const TwentyTwentyThree = () => {
             headerSize='4xl'
             headerText='One year anniversary 5/7'
             content={
-                <SimpleGrid columns={{base: 1, sm: 1, lg: 2}} gap={4}>
+                <SimpleGrid columns={{ base: 1, sm: 1, lg: 2 }} gap={4}>
                     <Box boxSize={boxSizes} mb='8em'><Image src={oneYearDinner} /></Box>
                     <Box boxSize={boxSizes} mb='8em'><Image src={oneYearFlowers} /></Box>
                 </SimpleGrid>
             }
             text={<>
-                Our one year anniversary!!! 🥳🥰<br/>
-                I didn't get any pictures of us, but that's ok there's more to come! <br/>
-                I can't believe you've been dealing with me for a whole year! <br/>
-                You mean the world to me! You're the love of my life! <br/>
-                I wouldn't have it any other way baby! <br/>
+                Our one year anniversary!!! 🥳🥰<br />
+                I didn't get any pictures of us, but that's ok there's more to come! <br />
+                I can't believe you've been dealing with me for a whole year! <br />
+                You mean the world to me! You're the love of my life! <br />
+                I wouldn't have it any other way baby! <br />
                 I love you so much!
             </>}
         ></StyledStack>
@@ -137,15 +137,15 @@ const TwentyTwentyThree = () => {
             headerSize='4xl'
             headerText='ILLENIUM 6/24'
             content={
-                <SimpleGrid columns={{base: 1, sm: 1, lg: 2}} gap={4}>
+                <SimpleGrid columns={{ base: 1, sm: 1, lg: 2 }} gap={4}>
                     <Box boxSize={boxSizes} mb='8em'><Image src={illenium1} /></Box>
                     <Box boxSize={boxSizes} mb='8em'><Image src={illenium2} /></Box>
                 </SimpleGrid>
             }
             text={<>
-                WHEN WE WENT TO ILLENIUM TOGETHER!!! 🥰😘 <br/>
-                Omg this show was so good!!! <br/>
-                From the music to the drone show!<br/>
+                WHEN WE WENT TO ILLENIUM TOGETHER!!! 🥰😘 <br />
+                Omg this show was so good!!! <br />
+                From the music to the drone show!<br />
                 It was so beautiful but nothing is as beautiful as you!! 😘
             </>}
         ></StyledStack>
@@ -155,15 +155,15 @@ const TwentyTwentyThree = () => {
             headerSize='4xl'
             headerText='Putt Shack 7/3'
             content={
-                <SimpleGrid columns={{base: 1, sm: 1, lg: 2}} gap={4}>
+                <SimpleGrid columns={{ base: 1, sm: 1, lg: 2 }} gap={4}>
                     <Box boxSize={boxSizes} mb='8em'><Image src={puttShack1} /></Box>
                     <Box boxSize={boxSizes} mb='8em'><Image src={puttShack2} /></Box>
                 </SimpleGrid>
             }
             text={<>
-                When we went to Putt Shack! 🏌🏻‍♀️🏌🏻<br/>
-                You beat me so hard!!! 😡 <br/>
-                You're up now 2-1 in mini golf but I'll get you next time baby!!! 😝 <br/>
+                When we went to Putt Shack! 🏌🏻‍♀️🏌🏻<br />
+                You beat me so hard!!! 😡 <br />
+                You're up now 2-1 in mini golf but I'll get you next time baby!!! 😝 <br />
             </>}
         ></StyledStack>
     </>
