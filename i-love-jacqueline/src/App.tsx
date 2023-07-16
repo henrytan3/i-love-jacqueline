@@ -9,13 +9,19 @@ import {
   AlertDialogBody,
   AlertDialogFooter,
   Input,
+  Image,
   InputRightElement,
   Button,
   FormControl,
   Text,
-  InputGroup
+  InputGroup,
+  Box,
+  Grid,
+  GridItem,
+  SimpleGrid
 } from '@chakra-ui/react';
 import Home from './components/Home';
+import pompomGIF from '../src/static/images/pompom.gif'
 
 function App() {
   document.title = "I love Jacqueline!";
@@ -49,8 +55,12 @@ function App() {
         <AlertDialogOverlay>
           <AlertDialogContent>
             <AlertDialogHeader fontSize='lg' fontWeight='bold'>
-              Enter Password
+            <SimpleGrid columns={{base: 2, sm: 2, lg: 2}} gap={4}>
+                    <span>Enter Password</span>
+                <Image align="end" boxSize='50px' src={pompomGIF} />
+                </SimpleGrid>
             </AlertDialogHeader>
+            
             <AlertDialogBody>
               <FormControl isRequired>
                 <InputGroup>
