@@ -13,6 +13,7 @@ import illenium1 from '../../static/images/illenium1.jpg'
 import illenium2 from '../../static/images/illenium2.jpg'
 import puttShack1 from '../../static/images/putt_shack.jpg'
 import puttShack2 from '../../static/images/putt_shack2.jpg'
+import frenchCroissant from '../../static/images/french_croissant.png'
 
 const TwentyTwentyThree = () => {
     const stackSizeSm = [
@@ -47,7 +48,7 @@ const TwentyTwentyThree = () => {
             </>}
         ></StyledStack>
         <StyledStack
-            height={{ base: '130em', lg: '80em' }}
+            height={{ base: '135em', lg: '80em' }}
             backgroundColor="purple.200"
             headerSize='4xl'
             headerText='Home-okase 3/10'
@@ -68,6 +69,7 @@ const TwentyTwentyThree = () => {
                 Our first home-okase! 😋 <br />
                 This was sooo much fun and was so yummy! ☺️ <br />
                 You made such beautiful sushi baby! 🤤
+                <Image boxSize="75px" src={frenchCroissant} style={{ transform: 'translate(10%, -20%)' }} />
             </>}
         ></StyledStack>
         <StyledStack
