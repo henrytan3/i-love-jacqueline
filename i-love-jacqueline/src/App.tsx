@@ -15,9 +15,6 @@ import {
   FormControl,
   Text,
   InputGroup,
-  Box,
-  Grid,
-  GridItem,
   SimpleGrid
 } from '@chakra-ui/react';
 import Home from './components/Home';
@@ -57,7 +54,6 @@ function App() {
             <AlertDialogHeader fontSize='lg' fontWeight='bold'>
               <SimpleGrid columns={{ base: 2, sm: 2, lg: 2 }} gap={4}>
                 <span>Enter Password</span>
-                <Image align="end" boxSize='50px' src={pompomGIF} />
               </SimpleGrid>
             </AlertDialogHeader>
 
@@ -93,6 +89,7 @@ function App() {
               <Button onClick={checkPassword}>
                 Enter
               </Button>
+              <Image align="end" boxSize='50px' src={pompomGIF} />
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialogOverlay>

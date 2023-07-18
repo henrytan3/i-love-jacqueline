@@ -14,6 +14,9 @@ import illenium2 from '../../static/images/illenium2.jpg'
 import puttShack1 from '../../static/images/putt_shack.jpg'
 import puttShack2 from '../../static/images/putt_shack2.jpg'
 import frenchCroissant from '../../static/images/french_croissant.png'
+import pompomCookie from '../../static/videos/pompom_cookie.gif'
+
+const loadingGIFs = [pompomCookie]
 
 const TwentyTwentyThree = () => {
     const stackSizeSm = [
@@ -36,6 +39,8 @@ const TwentyTwentyThree = () => {
                     boxSize={boxSizes}
                     mb='10em'>
                     <Image
+                        loading="lazy"
+                        fallbackSrc={pompomCookie}
                         src={birthday}
                     />
                 </Box>
@@ -57,6 +62,7 @@ const TwentyTwentyThree = () => {
                     <Box
                         boxSize={boxSizes} mb='8em'>
                         <Image
+                            loading="lazy"
                             src={homeokase1}
                         />
                     </Box>
@@ -82,6 +88,7 @@ const TwentyTwentyThree = () => {
                     boxSize={boxSizes}
                     mb='10em'>
                     <Image
+                        loading="lazy"
                         src={upstairsCircus}
                     />
                 </Box>
@@ -102,6 +109,7 @@ const TwentyTwentyThree = () => {
                     boxSize={boxSizes}
                     mb='10em'>
                     <Image
+                        loading="lazy"
                         src={ghibliConcert}
                     />
                 </Box>
@@ -140,8 +148,8 @@ const TwentyTwentyThree = () => {
             headerText='ILLENIUM 6/24'
             content={
                 <SimpleGrid columns={{ base: 1, sm: 1, lg: 2 }} gap={4}>
-                    <Box boxSize={boxSizes} mb='8em'><Image src={illenium1} /></Box>
-                    <Box boxSize={boxSizes} mb='8em'><Image src={illenium2} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image loading="lazy" src={illenium1} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image loading="lazy" src={illenium2} /></Box>
                 </SimpleGrid>
             }
             text={<>
@@ -158,8 +166,8 @@ const TwentyTwentyThree = () => {
             headerText='Putt Shack 7/3'
             content={
                 <SimpleGrid columns={{ base: 1, sm: 1, lg: 2 }} gap={4}>
-                    <Box boxSize={boxSizes} mb='8em'><Image src={puttShack1} /></Box>
-                    <Box boxSize={boxSizes} mb='8em'><Image src={puttShack2} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image loading="lazy" src={puttShack1} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image loading="lazy" src={puttShack2} /></Box>
                 </SimpleGrid>
             }
             text={<>

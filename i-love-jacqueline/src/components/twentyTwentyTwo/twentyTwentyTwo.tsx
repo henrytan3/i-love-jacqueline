@@ -18,6 +18,11 @@ import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
 import pixarPutt from '../../static/images/pixar_putt.jpg';
 import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg';
 import pompomCheeks from '../../static/videos/pompom_cheeks.gif';
+import { Suspense } from "react";
+import ImageLoadingFallback from "../shared/imageLoadingFallback";
+import pompomCookie from '../../static/videos/pompom_cookie.gif'
+
+const loadingGIFs = [pompomCookie]
 
 export const TwentyTwentyTwo = () => {
     const stackSizeSm = [
@@ -41,6 +46,8 @@ export const TwentyTwentyTwo = () => {
                         boxSize={boxSizes}
                         mb='13em'>
                         <Image
+                            loading="lazy"
+                            // fallbackSrc={loadingGIFs[0]}
                             src={jacquelineWithHugsy}
                         />
                     </Box>
@@ -72,7 +79,7 @@ export const TwentyTwentyTwo = () => {
                 content={
                     <Box
                         boxSize='md'>
-                        <Image src={painting} />
+                        <Image loading="lazy" src={painting} />
                     </Box>}
                 headerSize='3xl'
                 headerText='Zoo and Paint 6/20'
@@ -103,10 +110,10 @@ export const TwentyTwentyTwo = () => {
                 content={<>
                     <VStack>
                         <Box boxSize='sm'>
-                            <Image src={friendsExperience} />
+                            <Image loading="lazy" src={friendsExperience} />
                         </Box>
                         <Box boxSize='sm'>
-                            <Image src={friendsExperience2} />
+                            <Image loading="lazy" src={friendsExperience2} />
                         </Box>
                     </VStack>
                 </>}
@@ -144,7 +151,7 @@ export const TwentyTwentyTwo = () => {
                     <>
                         <Box boxSize='md'
                             mb='10em'>
-                            <Image src={odesza} />
+                            <Image loading="lazy" src={odesza} />
                         </Box>
                     </>
                 }
@@ -183,7 +190,7 @@ export const TwentyTwentyTwo = () => {
                     <>
                         <Box boxSize='md'
                             mb='10em'>
-                            <Image src={pixarPutt} />
+                            <Image loading="lazy" src={pixarPutt} />
                         </Box>
                     </>
                 }
@@ -202,7 +209,7 @@ export const TwentyTwentyTwo = () => {
                 content={
                     <>
                         <Box boxSize='md'>
-                            <Image src={gingerBreadHouses} />
+                            <Image loading="lazy" src={gingerBreadHouses} />
                         </Box>
                     </>
                 }
@@ -221,10 +228,10 @@ export const TwentyTwentyTwo = () => {
                 content={
                     <VStack>
                         <Box boxSize='sm'>
-                            <Image src={jacquelineHighschool} />
+                            <Image loading="lazy" src={jacquelineHighschool} />
                         </Box>
                         <Box boxSize='sm'>
-                            <Image src={henryHighschool} />
+                            <Image loading="lazy" src={henryHighschool} />
                         </Box>
                     </VStack>
                 }
