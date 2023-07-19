@@ -9,6 +9,7 @@ import {
     DrawerOverlay,
     Flex,
     IconButton,
+    SimpleGrid,
     useDisclosure,
     VStack
 } from '@chakra-ui/react';
@@ -60,8 +61,10 @@ const Home = () => {
                             Year
                         </DrawerHeader>
                         <DrawerBody>
-                            <Button onClick={() => setSelectedYear(2022)}>2022</Button>
-                            <Button onClick={() => setSelectedYear(2023)}>2023</Button>
+                            <SimpleGrid columns={3} spacing={2}>
+                                <Button onClick={() => setSelectedYear(2022)}>2022</Button>
+                                <Button onClick={() => setSelectedYear(2023)}>2023</Button>
+                            </SimpleGrid>
                         </DrawerBody>
                     </DrawerContent>
                 </DrawerOverlay>

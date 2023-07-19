@@ -18,7 +18,6 @@ import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
 import pixarPutt from '../../static/images/pixar_putt.jpg';
 import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg';
 import pompomCheeks from '../../static/videos/pompom_cheeks.gif';
-import { Suspense } from "react";
 import ImageLoadingFallback from "../shared/imageLoadingFallback";
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
 
@@ -50,6 +49,7 @@ export const TwentyTwentyTwo = () => {
                             // fallbackSrc={loadingGIFs[0]}
                             src={jacquelineWithHugsy}
                         />
+                        <Image src={loadingGIFs[0]}></Image>
                     </Box>
                 }
                 text={<>This web diary is dedicated to my beautiful, funny, sweet, and kind girlfriend Jacqueline. <br />
