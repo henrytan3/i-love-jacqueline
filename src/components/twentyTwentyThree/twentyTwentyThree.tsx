@@ -171,7 +171,7 @@ const TwentyTwentyThree = () => {
                 </SimpleGrid>
             }
             text={<>
-                When we went to Putt Shack! 🏌🏻‍♀️🏌🏻<br />
+                When we went to Putt Shack!! 🏌🏻‍♀️🏌🏻<br />
                 You beat me so hard!!! 😡 <br />
                 You're up now 2-1 in mini golf but I'll get you next time baby!!! 😝 <br />
             </>}
