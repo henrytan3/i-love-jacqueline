@@ -49,7 +49,6 @@ export const TwentyTwentyTwo = () => {
                             // fallbackSrc={loadingGIFs[0]}
                             src={jacquelineWithHugsy}
                         />
-                        <Image src={loadingGIFs[0]}></Image>
                     </Box>
                 }
                 text={<>This web diary is dedicated to my beautiful, funny, sweet, and kind girlfriend Jacqueline. <br />
