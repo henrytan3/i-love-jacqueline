@@ -17,6 +17,9 @@ import frenchCroissant from '../../static/images/french_croissant.png'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
 import artMuseum from '../../static/images/art_museum.jpg'
 import brightLights from '../../static/images/bright_lights.JPG'
+import cuonAndCheesecake from '../../static/images/cuon_and_cheesecake.JPG'
+import vyBirthday from '../../static/images/vy_birthday_2023.JPG'
+import faceMask from '../../static/images/face_mask.JPG'
 import React from "react";
 
 const loadingGIFs = [pompomCookie]
@@ -221,6 +224,72 @@ const TwentyTwentyThree = () => {
                 The lights were shining so cute and bright that night ✨<br />
                 But you shine brighter than all of them baby! 😍
 
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={'55em'}
+            backgroundColor="yellow.200"
+            headerSize='4xl'
+            headerText='Cuon and Cheesecake 8/15'
+            content={
+                <Box
+                    boxSize={boxSizes}
+                    mb='10em'>
+                    <Image
+                        loading="lazy"
+                        src={cuonAndCheesecake}
+                    />
+                </Box>
+            }
+            text={<>
+                Our C date!!! <br />
+                Thank you for showing me how to make cuon baby it's so yummy! 😋<br />
+                I didn't get a picture of the cuon but my cuon rolling skills are getting better! <br />
+                The cheesecake was really yummy too! 🤤
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={'55em'}
+            backgroundColor="purple.200"
+            headerSize='4xl'
+            headerText='Your birthday! 9/1 (9/5)'
+            content={
+                <Box
+                    boxSize={boxSizes}
+                    mb='10em'>
+                    <Image
+                        loading="lazy"
+                        src={vyBirthday}
+                    />
+                </Box>
+            }
+            text={<>
+                Your 26th birthday!!! 🎉🥳<br />
+                26 never looked better!!!<br />
+                You are honestly the most loving, kind, and beautiful girl in the world! <br />
+                One day to celebrate you is not enough! <br />
+                You are my universe I love you so much
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="teal.200"
+            headerSize='4xl'
+            headerText='I love you!!!'
+            content={
+                <Box
+                    boxSize={boxSizes}
+                    mb='10em'>
+                    <Image
+                        loading="lazy"
+                        src={faceMask}
+                    />
+                </Box>
+            }
+            text={<>
+                I know we have our ups and downs, <br />
+                but I would do this a billion times <br />
+                just to be with you
             </>}
         ></StyledStack>
     </>
