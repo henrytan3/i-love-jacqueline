@@ -1,4 +1,4 @@
-import { Box, Center, Grid, GridItem, Image, SimpleGrid, } from "@chakra-ui/react";
+import { Box, Image, SimpleGrid, } from "@chakra-ui/react";
 import { StyledStack } from "../shared/styledStack"
 import birthday from '../../static/images/birthday.jpg';
 import homeokase1 from '../../static/images/home_okase_1.jpg'
@@ -15,6 +15,7 @@ import puttShack1 from '../../static/images/putt_shack.jpg'
 import puttShack2 from '../../static/images/putt_shack2.jpg'
 import frenchCroissant from '../../static/images/french_croissant.png'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
+import React from "react";
 
 const loadingGIFs = [pompomCookie]
 
@@ -174,6 +175,28 @@ const TwentyTwentyThree = () => {
                 When we went to Putt Shack!! 🏌🏻‍♀️🏌🏻<br />
                 You beat me so hard!!! 😡 <br />
                 You're up now 2-1 in mini golf but I'll get you next time baby!!! 😝 <br />
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="pink.200"
+            headerSize='4xl'
+            headerText='Art Museum 4/21'
+            content={
+                <Box
+                    boxSize={boxSizes}
+                    mb='10em'>
+                    <Image
+                        loading="lazy"
+                        src={ghibliConcert}
+                    />
+                </Box>
+            }
+            text={<>
+                Our A date!!! <br />
+                A wonderful start to our alphabet date series 🥰<br />
+                Out of all the art work, you were the most beautiful masterpiece baby! 😍
+
             </>}
         ></StyledStack>
     </>
