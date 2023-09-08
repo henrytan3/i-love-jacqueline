@@ -15,6 +15,8 @@ import puttShack1 from '../../static/images/putt_shack.jpg'
 import puttShack2 from '../../static/images/putt_shack2.jpg'
 import frenchCroissant from '../../static/images/french_croissant.png'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
+import artMuseum from '../../static/images/art_museum.jpg'
+import brightLights from '../../static/images/bright_lights.JPG'
 import React from "react";
 
 const loadingGIFs = [pompomCookie]
@@ -123,7 +125,7 @@ const TwentyTwentyThree = () => {
             </>}
         ></StyledStack>
         <StyledStack
-            height={stackSizeSm}
+            height='85em'
             backgroundColor="yellow.200"
             headerSize='4xl'
             headerText='One year anniversary 5/7'
@@ -143,7 +145,7 @@ const TwentyTwentyThree = () => {
             </>}
         ></StyledStack>
         <StyledStack
-            height={stackSizeSm}
+            height='80em'
             backgroundColor="pink.200"
             headerSize='4xl'
             headerText='ILLENIUM 6/24'
@@ -161,7 +163,7 @@ const TwentyTwentyThree = () => {
             </>}
         ></StyledStack>
         <StyledStack
-            height={stackSizeSm}
+            height='75em'
             backgroundColor="purple.200"
             headerSize='4xl'
             headerText='Putt Shack 7/3'
@@ -181,14 +183,14 @@ const TwentyTwentyThree = () => {
             height={stackSizeSm}
             backgroundColor="pink.200"
             headerSize='4xl'
-            headerText='Art Museum 4/21'
+            headerText='Art Museum 8/4'
             content={
                 <Box
                     boxSize={boxSizes}
-                    mb='10em'>
+                    mb='2em'>
                     <Image
                         loading="lazy"
-                        src={ghibliConcert}
+                        src={artMuseum}
                     />
                 </Box>
             }
@@ -196,6 +198,28 @@ const TwentyTwentyThree = () => {
                 Our A date!!! <br />
                 A wonderful start to our alphabet date series 🥰<br />
                 Out of all the art work, you were the most beautiful masterpiece baby! 😍
+
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="blue.200"
+            headerSize='4xl'
+            headerText='Bright Lights 8/11'
+            content={
+                <Box
+                    boxSize={boxSizes}
+                    mb='10em'>
+                    <Image
+                        loading="lazy"
+                        src={brightLights}
+                    />
+                </Box>
+            }
+            text={<>
+                Our B date!!! <br />
+                The lights were shining so cute and bright that night ✨<br />
+                But you shine brighter than all of them baby! 😍
 
             </>}
         ></StyledStack>
