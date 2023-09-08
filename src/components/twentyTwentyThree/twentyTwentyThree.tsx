@@ -289,7 +289,10 @@ const TwentyTwentyThree = () => {
             text={<>
                 I know we have our ups and downs, <br />
                 but I would do this a billion times <br />
-                just to be with you
+                just to be with you <br />
+                My eyes only see you <br />
+                My arms only reach out for you <br />
+                My heart is only for you
             </>}
         ></StyledStack>
     </>
