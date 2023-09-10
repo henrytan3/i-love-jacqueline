@@ -184,7 +184,7 @@ const TwentyTwentyThree = () => {
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}
-            backgroundColor="pink.200"
+            backgroundColor="green.200"
             headerSize='4xl'
             headerText='Art Museum 8/4'
             content={
