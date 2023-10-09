@@ -20,6 +20,8 @@ import brightLights from '../../static/images/bright_lights.JPG'
 import cuonAndCheesecake from '../../static/images/cuon_and_cheesecake.JPG'
 import vyBirthday from '../../static/images/vy_birthday_2023.JPG'
 import faceMask from '../../static/images/face_mask.JPG'
+import museumOfIllusions1 from '../../static/images/museum_of_illiusions_1.jpg'
+import museumOfIllusions2 from '../../static/images/museum_of_illusions_2.jpg'
 import React from "react";
 
 const loadingGIFs = [pompomCookie]
@@ -269,6 +271,24 @@ const TwentyTwentyThree = () => {
                 You are honestly the most loving, kind, and beautiful girl in the world! <br />
                 One day to celebrate you is not enough! <br />
                 You are my universe I love you so much
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height='75em'
+            backgroundColor="blue.200"
+            headerSize='4xl'
+            headerText='Museum of Illusions 10/6'
+            content={
+                <SimpleGrid columns={{ base: 1, sm: 1, lg: 1 }} gap={4}>
+                    <Box style={{ marginBottom: '0px' }} boxSize={boxSizes} mb='8em'><Image loading="lazy" src={museumOfIllusions2} /></Box>
+                    <Box boxSize={boxSizes} mb='8em'><Image loading="lazy" src={museumOfIllusions1} /></Box>
+                </SimpleGrid>
+            }
+            text={<>
+                When we went to Museum of Illusions! 🥸<br />
+                Those illusions were so cool!!!<br />
+                The only place you'll be taller than me hahah 😂 <br />
+                I love you so much and our date days ❤️
             </>}
         ></StyledStack>
         <StyledStack
