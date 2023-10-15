@@ -18,8 +18,8 @@ import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
 import pixarPutt from '../../static/images/pixar_putt.jpg';
 import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg';
 import pompomCheeks from '../../static/videos/pompom_cheeks.gif';
-import ImageLoadingFallback from "../shared/imageLoadingFallback";
-import pompomCookie from '../../static/videos/pompom_cookie.gif'
+import pompomCookie from '../../static/videos/pompom_cookie.gif';
+import React from "react";
 
 const loadingGIFs = [pompomCookie]
 
@@ -93,7 +93,6 @@ export const TwentyTwentyTwo = () => {
                     width='500px'
                     height='400px'
                     controls
-                    autoPlay
                     src={topTaco}>
                 </video>
                 </Box>}
