@@ -22,6 +22,7 @@ import vyBirthday from '../../static/images/vy_birthday_2023.JPG'
 import faceMask from '../../static/images/face_mask.JPG'
 import museumOfIllusions1 from '../../static/images/museum_of_illiusions_1.jpg'
 import museumOfIllusions2 from '../../static/images/museum_of_illusions_2.jpg'
+import pumpkinPatch from '../../static/images/pumpkin_patch_2023.jpg'
 import React from "react";
 
 const loadingGIFs = [pompomCookie]
@@ -289,6 +290,26 @@ const TwentyTwentyThree = () => {
                 Those illusions were so cool!!!<br />
                 The only place you'll be taller than me hahah 😂 <br />
                 I love you so much and our date days ❤️
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height="50em"
+            backgroundColor="yellow.400"
+            content={
+                <>
+                    <Box boxSize='md'
+                        mb='2em'>
+                        <Image src={pumpkinPatch} />
+                    </Box>
+                </>
+            }
+            headerSize='3xl'
+            headerText="Pumpkin Patch 10/13"
+            text={<>
+                Year 2 pumpkin patch at Anderson Farms!<br />
+                We found the perfect pumpkins for carving!! ☺️<br />
+                But out of all the pumpkins there I would choose you!!<br />
+                I love you pumpkin!!! 🎃🧡😘<br />
             </>}
         ></StyledStack>
         <StyledStack
