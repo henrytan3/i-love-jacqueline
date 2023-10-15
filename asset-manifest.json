@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i-love-jacqueline/static/css/main.073c9b0a.css",
-    "main.js": "/i-love-jacqueline/static/js/main.09119d97.js",
+    "main.js": "/i-love-jacqueline/static/js/main.b26ad114.js",
     "static/js/787.698bac4b.chunk.js": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js",
     "static/media/top_taco.mp4": "/i-love-jacqueline/static/media/top_taco.4333c05495fbf75e6e87.mp4",
     "static/media/sunflower_fields.jpg": "/i-love-jacqueline/static/media/sunflower_fields.72ccc71c1317c95e94f5.jpg",
@@ -28,6 +28,7 @@
     "static/media/art_museum.jpg": "/i-love-jacqueline/static/media/art_museum.cdcd3f6cbc19c38eae35.jpg",
     "static/media/henry_highschool.jpg": "/i-love-jacqueline/static/media/henry_highschool.4df1184326905498588f.jpg",
     "static/media/museum_of_illiusions_1.jpg": "/i-love-jacqueline/static/media/museum_of_illiusions_1.2f9578e7b2aeaaf3ed3a.jpg",
+    "static/media/pumpkin_patch_2023.jpg": "/i-love-jacqueline/static/media/pumpkin_patch_2023.d7aa59df1376dc4d5343.jpg",
     "static/media/museum_of_illusions_2.jpg": "/i-love-jacqueline/static/media/museum_of_illusions_2.808d668c9f46935fad63.jpg",
     "static/media/cuon_and_cheesecake.JPG": "/i-love-jacqueline/static/media/cuon_and_cheesecake.55f2d945053e255231bd.JPG",
     "static/media/vy_birthday_2023.JPG": "/i-love-jacqueline/static/media/vy_birthday_2023.5c37329f08a09309718a.JPG",
@@ -42,11 +43,11 @@
     "static/media/pompom_cheeks.gif": "/i-love-jacqueline/static/media/pompom_cheeks.262eb97a3661275e9c43.gif",
     "index.html": "/i-love-jacqueline/index.html",
     "main.073c9b0a.css.map": "/i-love-jacqueline/static/css/main.073c9b0a.css.map",
-    "main.09119d97.js.map": "/i-love-jacqueline/static/js/main.09119d97.js.map",
+    "main.b26ad114.js.map": "/i-love-jacqueline/static/js/main.b26ad114.js.map",
     "787.698bac4b.chunk.js.map": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.09119d97.js"
+    "static/js/main.b26ad114.js"
   ]
 }
