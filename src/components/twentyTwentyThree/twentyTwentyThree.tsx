@@ -23,6 +23,7 @@ import faceMask from '../../static/images/face_mask.JPG'
 import museumOfIllusions1 from '../../static/images/museum_of_illiusions_1.jpg'
 import museumOfIllusions2 from '../../static/images/museum_of_illusions_2.jpg'
 import pumpkinPatch from '../../static/images/pumpkin_patch_2023.jpg'
+import strawberrySprings from '../../static/images/strawberry_springs.jpg'
 import React from "react";
 
 const loadingGIFs = [pompomCookie]
@@ -310,6 +311,26 @@ const TwentyTwentyThree = () => {
                 We found the perfect pumpkins for carving!! ☺️<br />
                 But out of all the pumpkins there I would choose you!!<br />
                 I love you pumpkin!!! 🎃🧡😘<br />
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="green.300"
+            content={
+                <>
+                    <Box boxSize={boxSizes}
+                        mb='10em'>
+                        <Image src={strawberrySprings} />
+                    </Box>
+                </>
+            }
+            headerSize='3xl'
+            headerText="Strawberry Springs 10/20"
+            text={<>
+                Strawberry Springs!!! 😌<br />
+                The springs were so nice and relaxing! 🥰<br />
+                Also the first day I met Jeanette!<br />
+                Can't believe we spent all day together 😮‍💨<br />
             </>}
         ></StyledStack>
         <StyledStack
