@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i-love-jacqueline/static/css/main.073c9b0a.css",
-    "main.js": "/i-love-jacqueline/static/js/main.b26ad114.js",
+    "main.js": "/i-love-jacqueline/static/js/main.af6989ba.js",
     "static/js/787.698bac4b.chunk.js": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js",
     "static/media/top_taco.mp4": "/i-love-jacqueline/static/media/top_taco.4333c05495fbf75e6e87.mp4",
     "static/media/sunflower_fields.jpg": "/i-love-jacqueline/static/media/sunflower_fields.72ccc71c1317c95e94f5.jpg",
@@ -33,6 +33,7 @@
     "static/media/cuon_and_cheesecake.JPG": "/i-love-jacqueline/static/media/cuon_and_cheesecake.55f2d945053e255231bd.JPG",
     "static/media/vy_birthday_2023.JPG": "/i-love-jacqueline/static/media/vy_birthday_2023.5c37329f08a09309718a.JPG",
     "static/media/birthday.jpg": "/i-love-jacqueline/static/media/birthday.e78deba0ac90ececc5e4.jpg",
+    "static/media/strawberry_springs.jpg": "/i-love-jacqueline/static/media/strawberry_springs.573f9c678f288a5f463b.jpg",
     "static/media/jacqueline_highschool.jpg": "/i-love-jacqueline/static/media/jacqueline_highschool.f8564d785c830ed7eacd.jpg",
     "static/media/bright_lights.JPG": "/i-love-jacqueline/static/media/bright_lights.0d96ef50927bc5b1e5ad.JPG",
     "static/media/face_mask.JPG": "/i-love-jacqueline/static/media/face_mask.0801af28b56e0fbfffbe.JPG",
@@ -43,11 +44,11 @@
     "static/media/pompom_cheeks.gif": "/i-love-jacqueline/static/media/pompom_cheeks.262eb97a3661275e9c43.gif",
     "index.html": "/i-love-jacqueline/index.html",
     "main.073c9b0a.css.map": "/i-love-jacqueline/static/css/main.073c9b0a.css.map",
-    "main.b26ad114.js.map": "/i-love-jacqueline/static/js/main.b26ad114.js.map",
+    "main.af6989ba.js.map": "/i-love-jacqueline/static/js/main.af6989ba.js.map",
     "787.698bac4b.chunk.js.map": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b26ad114.js"
+    "static/js/main.af6989ba.js"
   ]
 }
