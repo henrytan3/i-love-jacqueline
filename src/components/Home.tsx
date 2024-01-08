@@ -19,6 +19,7 @@ import {
 } from '@chakra-ui/icons';
 import { TwentyTwentyTwo } from "./twentyTwentyTwo/twentyTwentyTwo";
 import TwentyTwentyThree from "./twentyTwentyThree/twentyTwentyThree";
+import { TwentyTwentyFour } from "./twentyTwentyFour/twentyTwentyFour";
 
 const Home = () => {
     const [selectedYear, setSelectedYear] = useState(2022);
@@ -49,6 +50,7 @@ const Home = () => {
                 align='stretch'>
                 {selectedYear === 2022 && <TwentyTwentyTwo />}
                 {selectedYear === 2023 && <TwentyTwentyThree />}
+                {selectedYear === 2024 && <TwentyTwentyFour />}
             </VStack>
             <Drawer
                 placement='right'
@@ -64,6 +66,7 @@ const Home = () => {
                             <SimpleGrid columns={3} spacing={2}>
                                 <Button onClick={() => setSelectedYear(2022)}>2022</Button>
                                 <Button onClick={() => setSelectedYear(2023)}>2023</Button>
+                                <Button onClick={() => setSelectedYear(2024)}>2024</Button>
                             </SimpleGrid>
                         </DrawerBody>
                     </DrawerContent>
