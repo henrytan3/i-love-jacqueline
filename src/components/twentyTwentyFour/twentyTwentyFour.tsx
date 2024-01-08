@@ -37,7 +37,7 @@ export const TwentyTwentyFour = () => {
                 When we went to the latte art class!!! ☕️<br />
                 This was out of order but we had to do this class!<br />
                 Your latte art is so good baby!<br />
-                Time to get a espresso machine and practice hahah 😂
+                Time to get an espresso machine and practice hahah 😂
             </>}
             ></StyledStack>
         </>
