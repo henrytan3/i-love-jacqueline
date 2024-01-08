@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i-love-jacqueline/static/css/main.073c9b0a.css",
-    "main.js": "/i-love-jacqueline/static/js/main.cc14f13d.js",
+    "main.js": "/i-love-jacqueline/static/js/main.1bdf4b4d.js",
     "static/js/787.698bac4b.chunk.js": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js",
     "static/media/top_taco.mp4": "/i-love-jacqueline/static/media/top_taco.4333c05495fbf75e6e87.mp4",
     "static/media/sunflower_fields.jpg": "/i-love-jacqueline/static/media/sunflower_fields.72ccc71c1317c95e94f5.jpg",
@@ -35,6 +35,8 @@
     "static/media/cuon_and_cheesecake.JPG": "/i-love-jacqueline/static/media/cuon_and_cheesecake.55f2d945053e255231bd.JPG",
     "static/media/vy_birthday_2023.JPG": "/i-love-jacqueline/static/media/vy_birthday_2023.5c37329f08a09309718a.JPG",
     "static/media/birthday.jpg": "/i-love-jacqueline/static/media/birthday.e78deba0ac90ececc5e4.jpg",
+    "static/media/latte_class_vy.jpg": "/i-love-jacqueline/static/media/latte_class_vy.a43754566138f6cf6e61.jpg",
+    "static/media/latte_class_henry.jpg": "/i-love-jacqueline/static/media/latte_class_henry.fe758cde6d5753c304ec.jpg",
     "static/media/dave_and_busters.jpg": "/i-love-jacqueline/static/media/dave_and_busters.8251f342bebf04921ed7.jpg",
     "static/media/jacqueline_highschool.jpg": "/i-love-jacqueline/static/media/jacqueline_highschool.f8564d785c830ed7eacd.jpg",
     "static/media/ginger_bread_houses_2023.jpg": "/i-love-jacqueline/static/media/ginger_bread_houses_2023.f8b17418970b3997b96b.jpg",
@@ -48,11 +50,11 @@
     "static/media/pompom_cheeks.gif": "/i-love-jacqueline/static/media/pompom_cheeks.262eb97a3661275e9c43.gif",
     "index.html": "/i-love-jacqueline/index.html",
     "main.073c9b0a.css.map": "/i-love-jacqueline/static/css/main.073c9b0a.css.map",
-    "main.cc14f13d.js.map": "/i-love-jacqueline/static/js/main.cc14f13d.js.map",
+    "main.1bdf4b4d.js.map": "/i-love-jacqueline/static/js/main.1bdf4b4d.js.map",
     "787.698bac4b.chunk.js.map": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.cc14f13d.js"
+    "static/js/main.1bdf4b4d.js"
   ]
 }
