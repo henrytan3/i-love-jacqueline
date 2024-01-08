@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i-love-jacqueline/static/css/main.073c9b0a.css",
-    "main.js": "/i-love-jacqueline/static/js/main.af6989ba.js",
+    "main.js": "/i-love-jacqueline/static/js/main.cc14f13d.js",
     "static/js/787.698bac4b.chunk.js": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js",
     "static/media/top_taco.mp4": "/i-love-jacqueline/static/media/top_taco.4333c05495fbf75e6e87.mp4",
     "static/media/sunflower_fields.jpg": "/i-love-jacqueline/static/media/sunflower_fields.72ccc71c1317c95e94f5.jpg",
@@ -25,17 +25,21 @@
     "static/media/illenium2.jpg": "/i-love-jacqueline/static/media/illenium2.ac2d6d7cc4b37f83f2a3.jpg",
     "static/media/illenium1.jpg": "/i-love-jacqueline/static/media/illenium1.8dbd522982e3417a4de7.jpg",
     "static/media/odesza.jpg": "/i-love-jacqueline/static/media/odesza.e78dd8a27ca8f04a9708.jpg",
+    "static/media/flower_arranging.jpg": "/i-love-jacqueline/static/media/flower_arranging.21704663ed87c33f37d7.jpg",
     "static/media/art_museum.jpg": "/i-love-jacqueline/static/media/art_museum.cdcd3f6cbc19c38eae35.jpg",
     "static/media/henry_highschool.jpg": "/i-love-jacqueline/static/media/henry_highschool.4df1184326905498588f.jpg",
+    "static/media/build_a_bear.jpg": "/i-love-jacqueline/static/media/build_a_bear.99089df7e6891b281d05.jpg",
     "static/media/museum_of_illiusions_1.jpg": "/i-love-jacqueline/static/media/museum_of_illiusions_1.2f9578e7b2aeaaf3ed3a.jpg",
     "static/media/pumpkin_patch_2023.jpg": "/i-love-jacqueline/static/media/pumpkin_patch_2023.d7aa59df1376dc4d5343.jpg",
     "static/media/museum_of_illusions_2.jpg": "/i-love-jacqueline/static/media/museum_of_illusions_2.808d668c9f46935fad63.jpg",
     "static/media/cuon_and_cheesecake.JPG": "/i-love-jacqueline/static/media/cuon_and_cheesecake.55f2d945053e255231bd.JPG",
     "static/media/vy_birthday_2023.JPG": "/i-love-jacqueline/static/media/vy_birthday_2023.5c37329f08a09309718a.JPG",
     "static/media/birthday.jpg": "/i-love-jacqueline/static/media/birthday.e78deba0ac90ececc5e4.jpg",
-    "static/media/strawberry_springs.jpg": "/i-love-jacqueline/static/media/strawberry_springs.573f9c678f288a5f463b.jpg",
+    "static/media/dave_and_busters.jpg": "/i-love-jacqueline/static/media/dave_and_busters.8251f342bebf04921ed7.jpg",
     "static/media/jacqueline_highschool.jpg": "/i-love-jacqueline/static/media/jacqueline_highschool.f8564d785c830ed7eacd.jpg",
+    "static/media/ginger_bread_houses_2023.jpg": "/i-love-jacqueline/static/media/ginger_bread_houses_2023.f8b17418970b3997b96b.jpg",
     "static/media/bright_lights.JPG": "/i-love-jacqueline/static/media/bright_lights.0d96ef50927bc5b1e5ad.JPG",
+    "static/media/pumpkin_carving_2023.jpg": "/i-love-jacqueline/static/media/pumpkin_carving_2023.265190c51e8ccd735e9f.jpg",
     "static/media/face_mask.JPG": "/i-love-jacqueline/static/media/face_mask.0801af28b56e0fbfffbe.JPG",
     "static/media/french_croissant.png": "/i-love-jacqueline/static/media/french_croissant.2cede250f0c1567bfe19.png",
     "static/media/pompom_cookie.gif": "/i-love-jacqueline/static/media/pompom_cookie.d830a33bcb2d5985a245.gif",
@@ -44,11 +48,11 @@
     "static/media/pompom_cheeks.gif": "/i-love-jacqueline/static/media/pompom_cheeks.262eb97a3661275e9c43.gif",
     "index.html": "/i-love-jacqueline/index.html",
     "main.073c9b0a.css.map": "/i-love-jacqueline/static/css/main.073c9b0a.css.map",
-    "main.af6989ba.js.map": "/i-love-jacqueline/static/js/main.af6989ba.js.map",
+    "main.cc14f13d.js.map": "/i-love-jacqueline/static/js/main.cc14f13d.js.map",
     "787.698bac4b.chunk.js.map": "/i-love-jacqueline/static/js/787.698bac4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.af6989ba.js"
+    "static/js/main.cc14f13d.js"
   ]
 }
