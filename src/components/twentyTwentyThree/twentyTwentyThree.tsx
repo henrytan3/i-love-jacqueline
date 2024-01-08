@@ -23,6 +23,11 @@ import faceMask from '../../static/images/face_mask.JPG'
 import museumOfIllusions1 from '../../static/images/museum_of_illiusions_1.jpg'
 import museumOfIllusions2 from '../../static/images/museum_of_illusions_2.jpg'
 import pumpkinPatch from '../../static/images/pumpkin_patch_2023.jpg'
+import pumpkinCarving2023 from '../../static/images/pumpkin_carving_2023.jpg'
+import daveAndBusters from '../../static/images/dave_and_busters.jpg'
+import buildABear from '../../static/images/build_a_bear.jpg'
+import flowerArranging from '../../static/images/flower_arranging.jpg'
+import gingerBreadHouses from '../../static/images/ginger_bread_houses_2023.jpg'
 import React from "react";
 
 const loadingGIFs = [pompomCookie]
@@ -311,6 +316,103 @@ const TwentyTwentyThree = () => {
                 But out of all the pumpkins there I would choose you!!<br />
                 I love you pumpkin!!! 🎃🧡😘<br />
             </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="teal.300"
+            content={
+                <>
+                    <Box boxSize={boxSizes}
+                        mb='10em'>
+                        <Image src={pumpkinCarving2023} />
+                    </Box>
+                </>
+            }
+            headerSize='3xl'
+            headerText="Pumpkin Carving 10/26"
+            text={<>
+                Our pumpkins this year are so cute!!!  ☺️<br />
+               Nice idea on Mickey and Minnie<br />
+               Good thing we got the perfect pumpkins for their ears!!!
+           </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="blue.300"
+            content={
+                <>
+                    <Box boxSize={boxSizes}
+                        mb='10em'>
+                        <Image src={daveAndBusters} />
+                    </Box>
+                </>
+            }
+            headerSize='3xl'
+            headerText="Dave and Busters 11/10"
+            text={<>
+                Our D date!!! 🥰<br />
+               It's fun playing games with you baby<br />
+               How are you so good at Mario kart? 😡<br />
+               The avocado is a really good cleaner 😂
+           </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="orange.300"
+            content={
+                <>
+                    <Box boxSize={boxSizes}
+                        mb='10em'>
+                        <Image src={buildABear} />
+                    </Box>
+                </>
+            }
+            headerSize='3xl'
+            headerText="Build a bear 11/17"
+            text={<>
+                When we adopted Pom Pom!!<br />
+               Pom pom is so cute especially in his jammies<br />
+               He's also a cute wizard 🧙🏻<br />
+            </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="red.300"
+            content={
+                <>
+                    <Box boxSize={boxSizes}
+                        mb='10em'>
+                        <Image src={flowerArranging} />
+                    </Box>
+                </>
+            }
+            headerSize='3xl'
+            headerText="Flower Arranging 12/13"
+            text={<>
+                Our F date!!! 🌸🌹💐<br />
+               Flower arranging was so fun with you baby!<br />
+               You're such a natural at floristry baby ☺️<br />
+               E date is coming it's just out of order hahah
+           </>}
+        ></StyledStack>
+        <StyledStack
+            height={stackSizeSm}
+            backgroundColor="green.300"
+            content={
+                <>
+                    <Box boxSize={boxSizes}
+                        mb='10em'>
+                        <Image src={gingerBreadHouses} />
+                    </Box>
+                </>
+            }
+            headerSize='3xl'
+            headerText="Gingerbread Houses 12/22"
+            text={<>
+                Our G date!!<br />
+               Our gingerbread houses came out really cute this year baby 🎄<br />
+               The frosting was actually good this year 😂
+           </>}
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}
