@@ -16,10 +16,10 @@ import puttShack2 from '../../static/images/putt_shack2.jpg'
 import frenchCroissant from '../../static/images/french_croissant.png'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
 import artMuseum from '../../static/images/art_museum.jpg'
-import brightLights from '../../static/images/bright_lights.JPG'
-import cuonAndCheesecake from '../../static/images/cuon_and_cheesecake.JPG'
-import vyBirthday from '../../static/images/vy_birthday_2023.JPG'
-import faceMask from '../../static/images/face_mask.JPG'
+import brightLights from '../../static/images/bright_lights.jpg'
+import cuonAndCheesecake from '../../static/images/cuon_and_cheesecake.jpg'
+import vyBirthday from '../../static/images/vy_birthday_2023.jpg'
+import faceMask from '../../static/images/face_mask.jpg'
 import museumOfIllusions1 from '../../static/images/museum_of_illiusions_1.jpg'
 import museumOfIllusions2 from '../../static/images/museum_of_illusions_2.jpg'
 import pumpkinPatch from '../../static/images/pumpkin_patch_2023.jpg'
@@ -332,9 +332,9 @@ const TwentyTwentyThree = () => {
             headerText="Pumpkin Carving 10/26"
             text={<>
                 Our pumpkins this year are so cute!!!  ☺️<br />
-               Nice idea on Mickey and Minnie<br />
-               Good thing we got the perfect pumpkins for their ears!!!
-           </>}
+                Nice idea on Mickey and Minnie<br />
+                Good thing we got the perfect pumpkins for their ears!!!
+            </>}
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}
@@ -351,10 +351,10 @@ const TwentyTwentyThree = () => {
             headerText="Dave and Busters 11/10"
             text={<>
                 Our D date!!! 🥰<br />
-               It's fun playing games with you baby<br />
-               How are you so good at Mario kart? 😡<br />
-               The avocado is a really good cleaner 😂
-           </>}
+                It's fun playing games with you baby<br />
+                How are you so good at Mario kart? 😡<br />
+                The avocado is a really good cleaner 😂
+            </>}
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}
@@ -371,8 +371,8 @@ const TwentyTwentyThree = () => {
             headerText="Build a bear 11/17"
             text={<>
                 When we adopted Pom Pom!!<br />
-               Pom pom is so cute especially in his jammies<br />
-               He's also a cute wizard 🧙🏻<br />
+                Pom pom is so cute especially in his jammies<br />
+                He's also a cute wizard 🧙🏻<br />
             </>}
         ></StyledStack>
         <StyledStack
@@ -390,10 +390,10 @@ const TwentyTwentyThree = () => {
             headerText="Flower Arranging 12/13"
             text={<>
                 Our F date!!! 🌸🌹💐<br />
-               Flower arranging was so fun with you baby!<br />
-               You're such a natural at floristry baby ☺️<br />
-               E date is coming it's just out of order hahah
-           </>}
+                Flower arranging was so fun with you baby!<br />
+                You're such a natural at floristry baby ☺️<br />
+                E date is coming it's just out of order hahah
+            </>}
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}
@@ -410,9 +410,9 @@ const TwentyTwentyThree = () => {
             headerText="Gingerbread Houses 12/22"
             text={<>
                 Our G date!!<br />
-               Our gingerbread houses came out really cute this year baby 🎄<br />
-               The frosting was actually good this year 😂
-           </>}
+                Our gingerbread houses came out really cute this year baby 🎄<br />
+                The frosting was actually good this year 😂
+            </>}
         ></StyledStack>
         <StyledStack
             height={stackSizeSm}

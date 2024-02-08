@@ -4,8 +4,8 @@
   "homepage": "https://henrytan3.github.io/i-love-jacqueline",
   "private": true,
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.3",
-    "@chakra-ui/react": "^2.2.1",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@testing-library/jest-dom": "^5.16.4",
