@@ -29,6 +29,7 @@ import InfiniteScroll from 'react-infinite-scroll-component'
 import { useState } from 'react'
 import { stackItems2022 } from './stackItems2022'
 import { StyledStackProps } from '../../models/StyledStackProps'
+import pompomBg2022 from '../../static/images/pompom_bg_2022.png'
 
 export const TwentyTwentyTwo = () => {
   const [arrayIndex, setArrayIndex] = useState(0)
@@ -48,7 +49,7 @@ export const TwentyTwentyTwo = () => {
   }
 
   return (
-    <Center>
+    <Center backgroundImage={pompomBg2022}>
       <InfiniteScroll
         dataLength={2}
         hasMore={true}
@@ -57,8 +58,8 @@ export const TwentyTwentyTwo = () => {
       >
         {items.map((item, index) => (
           <Card
+            mt="2em"
             maxW="lg"
-            mb="4em"
             justify={'center'}
             key={`card-2022-${index}`}
             variant="filled"
