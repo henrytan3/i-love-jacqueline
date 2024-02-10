@@ -18,8 +18,6 @@ import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg'
 
 export const stackItems2022: StyledStackProps[] = [
   {
-    height: '55em',
-    backgroundColor: 'purple.200',
     headerSize: '4xl',
     headerText: 'Dear Jacqueline',
     content: {
@@ -42,8 +40,6 @@ export const stackItems2022: StyledStackProps[] = [
     ),
   },
   {
-    height: '55em',
-    backgroundColor: 'green.200',
     headerSize: '3xl',
     headerText: 'Chicken Fight! 5/26',
     content: {
@@ -63,13 +59,11 @@ export const stackItems2022: StyledStackProps[] = [
     ),
   },
   {
-    height: '56em',
-    backgroundColor: 'blue.200',
     headerSize: '3xl',
     headerText: 'Zoo and Paint! 6/20',
     content: {
       boxSize: boxSizes,
-      mb: '16em',
+      mb: '0em',
       images: [painting],
     },
     text: (

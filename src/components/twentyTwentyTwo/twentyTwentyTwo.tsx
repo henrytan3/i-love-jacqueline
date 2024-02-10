@@ -1,4 +1,14 @@
-import { Image, Box, VStack } from '@chakra-ui/react'
+import {
+  Image,
+  Box,
+  VStack,
+  Card,
+  Heading,
+  CardHeader,
+  CardBody,
+  Text,
+  Center,
+} from '@chakra-ui/react'
 import { StyledStack } from '../shared/styledStack'
 import chickenFight from '../../static/images/chicken_fight.jpg'
 import jacquelineWithHugsy from '../../static/images/jacqueline_with_hugsy.jpg'
@@ -38,21 +48,25 @@ export const TwentyTwentyTwo = () => {
   }
 
   return (
-    <InfiniteScroll
-      dataLength={2}
-      hasMore={true}
-      loader={<img src={pompomCookie} alt="Loading..."></img>}
-      next={getItems}
-    >
-      {items.map((item, index) => {
-        return (
-          <StyledStack
-            height={item.height}
-            backgroundColor={item.backgroundColor}
-            headerSize={item.headerSize}
-            headerText={item.headerText}
-            key={`card-${index}`}
-            content={
+    <Center>
+      <InfiniteScroll
+        dataLength={2}
+        hasMore={true}
+        loader={<img src={pompomCookie} alt="Loading..."></img>}
+        next={getItems}
+      >
+        {items.map((item, index) => (
+          <Card
+            maxW="lg"
+            mb="4em"
+            justify={'center'}
+            key={`card-2022-${index}`}
+            variant="filled"
+          >
+            <CardHeader>
+              <Heading size="md">{item.headerText}</Heading>
+            </CardHeader>
+            <CardBody>
               <VStack>
                 {item.content.images.map((image, index) => {
                   return (
@@ -70,12 +84,12 @@ export const TwentyTwentyTwo = () => {
                   )
                 })}
               </VStack>
-            }
-            text={item.text}
-          />
-        )
-      })}
-    </InfiniteScroll>
+              <Text>{item.text}</Text>
+            </CardBody>
+          </Card>
+        ))}
+      </InfiniteScroll>
+    </Center>
     //   <StyledStack
     //     height="56em"
     //     backgroundColor="yellow.200"
