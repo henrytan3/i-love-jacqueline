@@ -15,46 +15,44 @@ import pixarPutt from '../../static/images/pixar_putt.jpg'
 import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg'
 import pompomCheeks from '../../static/videos/pompom_cheeks.gif'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
-import React from 'react'
 import InfiniteScroll from 'react-infinite-scroll-component'
-
-const loadingGIFs = [pompomCookie]
+import { useState } from 'react'
+import { stackItems2022 } from './stackItems2022'
+import { StyledStackProps } from '../../models/StyledStackProps'
 
 export const TwentyTwentyTwo = () => {
   const stackSizeSm = ['55em', '56em']
   const boxSizes = ['xs', 'sm']
 
+  const [items, setItems] = useState<StyledStackProps[]>([])
+
+  const getItems = () => {
+    setItems([stackItems2022.pop()!])
+  }
+
   return (
-    <>
-      <StyledStack
-        height={stackSizeSm}
-        backgroundColor="purple.200"
-        headerSize="4xl"
-        headerText="Dear Jacqueline"
-        content={
-          <Box boxSize={boxSizes} mb="13em">
-            <Image
-              loading="lazy"
-              // fallbackSrc={loadingGIFs[0]}
-              src={jacquelineWithHugsy}
-            />
-          </Box>
-        }
-        text={
-          <>
-            This web diary is dedicated to my beautiful, funny, sweet, and kind
-            girlfriend Jacqueline. <br />
-            I decided to make this to showcase some of our memories together
-            with some cute messages. <br />
-            I hope you like it! I love you forever! ❤️ 😘
-            <Image
-              boxSize="100px"
-              style={{ transform: 'translate(10%, -20%)' }}
-              src={pompomCheeks}
-            />
-          </>
-        }
-      ></StyledStack>
+    <InfiniteScroll
+      dataLength={2}
+      hasMore={true}
+      loader={<img src={pompomCookie} alt="Loading..."></img>}
+      next={getItems}
+    >
+      {items.map((item) => {
+        return (
+          <StyledStack
+            height={item.height}
+            backgroundColor={item.backgroundColor}
+            headerSize={item.headerSize}
+            headerText={item.headerText}
+            content={
+              <Box boxSize={item.content.boxSize} mb={item.content.mb}>
+                <Image loading="lazy" src={jacquelineWithHugsy} />
+              </Box>
+            }
+            text={item.text}
+          ></StyledStack>
+        )
+      })}
       <StyledStack
         height="56em"
         backgroundColor="green.200"
@@ -270,6 +268,6 @@ export const TwentyTwentyTwo = () => {
         headerText="I love you!"
         text={<></>}
       ></StyledStack>
-    </>
+    </InfiniteScroll>
   )
 }
