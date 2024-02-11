@@ -159,4 +159,50 @@ export const cardData2022: CardProps[] = [
       </>
     ),
   },
+  {
+    headerText: 'Pixar Putt 10/15',
+    content: {
+      boxSize: boxSizes,
+      mb: '10em',
+      images: [pixarPutt],
+    },
+    text: (
+      <>
+        Mini golf!! With our favorite pixar movies!! 😊
+        <br />
+        You won this time baby! I'll get you next time 😡
+        <br />
+        We're 1-1 in mini golf now honey! 😘
+        <br />I have such a talented girlfriend! 🥰
+      </>
+    ),
+  },
+  {
+    headerText: 'Gingerbread Houses 12/16',
+    content: {
+      boxSize: boxSizes,
+      mb: '4em',
+      images: [gingerBreadHouses],
+    },
+    text: (
+      <>
+        Gingerbread houses!! Woo!! 🎄
+        <br />
+        The frosting in the kits weren't that great, but
+        <br />
+        you still did such a good job honey! 😊
+        <br />
+        You're so good at ginger bread houses baby! 😘
+      </>
+    ),
+  },
+  {
+    headerText: 'I love you!',
+    content: {
+      boxSize: boxSizes,
+      mb: '4em',
+      images: [jacquelineHighschool, henryHighschool],
+    },
+    text: '',
+  },
 ]
