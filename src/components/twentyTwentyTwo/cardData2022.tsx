@@ -1,4 +1,4 @@
-import { Image, Box } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 import { CardProps } from '../../models/CardProps'
 import { boxSizes } from '../../constants/globals'
 import jacquelineWithHugsy from '../../static/images/jacqueline_with_hugsy.jpg'

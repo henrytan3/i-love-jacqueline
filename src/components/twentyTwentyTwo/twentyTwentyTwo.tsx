@@ -9,21 +9,6 @@ import {
   Text,
   Center,
 } from '@chakra-ui/react'
-import { StyledStack } from '../shared/styledStack'
-import chickenFight from '../../static/images/chicken_fight.jpg'
-import jacquelineWithHugsy from '../../static/images/jacqueline_with_hugsy.jpg'
-import topTaco from '../../static/videos/top_taco.mp4'
-import painting from '../../static/images/painting.jpg'
-import friendsExperience from '../../static/images/friendsExperience.jpg'
-import friendsExperience2 from '../../static/images/friendsExperience2.jpg'
-import sunflowerFields from '../../static/images/sunflower_fields.jpg'
-import jacquelineHighschool from '../../static/images/jacqueline_highschool.jpg'
-import henryHighschool from '../../static/images/henry_highschool.jpg'
-import odesza from '../../static/images/odesza.jpg'
-import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
-import pixarPutt from '../../static/images/pixar_putt.jpg'
-import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg'
-import pompomCheeks from '../../static/videos/pompom_cheeks.gif'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useState } from 'react'
@@ -48,6 +33,7 @@ export const TwentyTwentyTwo = () => {
     <Center backgroundImage={pompomBg2022}>
       <InfiniteScroll
         dataLength={items.length}
+        scrollThreshold={'200px'}
         hasMore={items.length != cardData2022.length}
         loader={<img src={pompomCookie} alt="Loading..."></img>}
         next={handleScroll}
