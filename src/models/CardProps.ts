@@ -1,5 +1,4 @@
-export interface StyledStackProps {
-  headerSize: string
+export interface CardProps {
   headerText: string
   content: {
     boxSize: string[]

@@ -1,5 +1,5 @@
 import { Image, Box } from '@chakra-ui/react'
-import { StyledStackProps } from '../../models/StyledStackProps'
+import { CardProps } from '../../models/CardProps'
 import { boxSizes } from '../../constants/globals'
 import jacquelineWithHugsy from '../../static/images/jacqueline_with_hugsy.jpg'
 import pompomCheeks from '../../static/videos/pompom_cheeks.gif'
@@ -16,9 +16,8 @@ import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
 import pixarPutt from '../../static/images/pixar_putt.jpg'
 import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg'
 
-export const stackItems2022: StyledStackProps[] = [
+export const cardData2022: CardProps[] = [
   {
-    headerSize: '4xl',
     headerText: 'Dear Jacqueline',
     content: {
       boxSize: boxSizes,
@@ -40,11 +39,10 @@ export const stackItems2022: StyledStackProps[] = [
     ),
   },
   {
-    headerSize: '3xl',
     headerText: 'Chicken Fight! 5/26',
     content: {
       boxSize: boxSizes,
-      mb: '16em',
+      mb: '20em',
       images: [chickenFight],
     },
     text: (
@@ -59,7 +57,6 @@ export const stackItems2022: StyledStackProps[] = [
     ),
   },
   {
-    headerSize: '3xl',
     headerText: 'Zoo and Paint! 6/20',
     content: {
       boxSize: boxSizes,
@@ -73,6 +70,92 @@ export const stackItems2022: StyledStackProps[] = [
         Afterwards we went to the park to paint, I had so much fun that day! You
         can choose the Bob Ross video next time! <br />
         Every day with you is so amazing! ❤️
+      </>
+    ),
+  },
+  {
+    headerText: 'Top Taco 6/23',
+    content: {
+      boxSize: boxSizes,
+      mb: '0em',
+      images: [topTaco],
+    },
+    text: (
+      <>
+        The night we went to Taco Fest! You know I love tacos! My mexican name
+        is actually Enrique. 😂 <br />
+        We ate so many yummy tacos that night!! Thank you for taking me to Top
+        Taco! <br />
+        It's so crazy I get to call you my girlfriend! 🥰
+      </>
+    ),
+  },
+  {
+    headerText: 'Friends Experience 7/2',
+    content: {
+      boxSize: boxSizes,
+      mb: '0em',
+      images: [friendsExperience, friendsExperience2],
+    },
+    text: (
+      <>
+        The day we went to the Friends Experience! We got to live out being on
+        the set of Friends, your favorite show! <br />
+        I started watching Friends because of you and I loved it! <br />
+        You looked so pretty and I felt so special walking through the set with
+        you! <br />I love you more and more everyday baby! 🥰
+      </>
+    ),
+  },
+  {
+    headerText: 'Sunflower Fields 8/13',
+    content: {
+      boxSize: boxSizes,
+      mb: '12em',
+      images: [sunflowerFields],
+    },
+    text: (
+      <>
+        My beautiful sunflower in a field of sunflowers!! 🌻 <br />
+        Our sunflowers turned out so pretty! <br />
+        Just like you my love! 😍 <br />I had sooo much fun with you that day! I
+        love you! ❤️
+      </>
+    ),
+  },
+  {
+    headerText: 'ODESZA 9/17',
+    content: {
+      boxSize: boxSizes,
+      mb: '10em',
+      images: [odesza],
+    },
+    text: (
+      <>
+        ODESZA!!! <br />
+        This was one of the best shows I've ever seen!!
+        <br />
+        And it was even better with you baby!! 😘
+        <br />
+        You are the one I need I love you!
+      </>
+    ),
+  },
+  {
+    headerText: 'Pumpkin Patch 10/8',
+    content: {
+      boxSize: boxSizes,
+      mb: '10em',
+      images: [pumpkinPatch],
+    },
+    text: (
+      <>
+        We went to look for cute pumpkins,
+        <br />
+        but I already have the cutest pumpkin in the world!!
+        <br />
+        I love you pumpkin!!! 🎃🧡😘
+        <br />
       </>
     ),
   },

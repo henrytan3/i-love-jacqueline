@@ -27,184 +27,82 @@ import pompomCheeks from '../../static/videos/pompom_cheeks.gif'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useState } from 'react'
-import { stackItems2022 } from './stackItems2022'
-import { StyledStackProps } from '../../models/StyledStackProps'
+import { cardData2022 } from './cardData2022'
+import { CardProps } from '../../models/CardProps'
 import pompomBg2022 from '../../static/images/pompom_bg_2022.png'
 
 export const TwentyTwentyTwo = () => {
   const [arrayIndex, setArrayIndex] = useState(0)
-  const [items, setItems] = useState<StyledStackProps[]>([
-    stackItems2022[arrayIndex],
-    stackItems2022[arrayIndex + 1],
+  const [items, setItems] = useState<CardProps[]>([
+    cardData2022[arrayIndex],
+    cardData2022[arrayIndex + 1],
   ])
 
   const handleScroll = () => {
-    items.push(stackItems2022[items.length])
+    items.push(cardData2022[items.length])
     setItems(items)
     setArrayIndex(items.length - 1)
-  }
-
-  const getItems = () => {
-    handleScroll()
   }
 
   return (
     <Center backgroundImage={pompomBg2022}>
       <InfiniteScroll
-        dataLength={2}
-        hasMore={true}
+        dataLength={items.length}
+        hasMore={items.length != cardData2022.length}
         loader={<img src={pompomCookie} alt="Loading..."></img>}
-        next={getItems}
+        next={handleScroll}
       >
-        {items.map((item, index) => (
-          <Card
-            mt="2em"
-            maxW="lg"
-            justify={'center'}
-            key={`card-2022-${index}`}
-            variant="filled"
-          >
-            <CardHeader>
-              <Heading size="md">{item.headerText}</Heading>
-            </CardHeader>
-            <CardBody>
-              <VStack>
-                {item.content.images.map((image, index) => {
-                  return (
-                    <Box
-                      key={`box-${index}`}
-                      boxSize={item.content.boxSize}
-                      mb={item.content.mb}
-                    >
-                      <Image
-                        loading="lazy"
-                        src={image}
-                        key={`image-${index}`}
-                      />
-                    </Box>
-                  )
-                })}
-              </VStack>
-              <Text>{item.text}</Text>
-            </CardBody>
-          </Card>
-        ))}
+        {items.map((item, index) => {
+          return (
+            <Card
+              mt="3em"
+              mb="3em"
+              maxW="lg"
+              justify={'center'}
+              key={`card-2022-${index}`}
+              variant="filled"
+            >
+              <CardHeader>
+                <Heading size="lg">{item.headerText}</Heading>
+              </CardHeader>
+              <CardBody>
+                <VStack>
+                  {item.content.images.map((image: any, index) => {
+                    const fileExtension = image.split('.').pop()
+                    return (
+                      <Box
+                        key={`box-${index}`}
+                        boxSize={item.content.boxSize}
+                        mb={item.content.mb}
+                      >
+                        {(() => {
+                          switch (fileExtension) {
+                            case 'jpg':
+                            case 'png':
+                              return (
+                                <Image
+                                  loading="lazy"
+                                  src={image}
+                                  key={`image-${index}`}
+                                />
+                              )
+                            case 'mp4':
+                              return <video src={image} />
+                            default:
+                              return <div></div>
+                          }
+                        })()}
+                      </Box>
+                    )
+                  })}
+                </VStack>
+                <Text>{item.text}</Text>
+              </CardBody>
+            </Card>
+          )
+        })}
       </InfiniteScroll>
     </Center>
-    //   <StyledStack
-    //     height="56em"
-    //     backgroundColor="yellow.200"
-    //     content={
-    //       <Box mb="2em">
-    //         <video width="500px" height="400px" controls src={topTaco}></video>
-    //       </Box>
-    //     }
-    //     headerSize="3xl"
-    //     headerText="Top Taco 6/23"
-    //     text={
-    //       <>
-    //         The night we went to Taco Fest! You know I love tacos! My mexican
-    //         name is actually Enrique. 😂 <br />
-    //         We ate so many yummy tacos that night!! Thank you for taking me to
-    //         Top Taco! <br />
-    //         It's so crazy I get to call you my girlfriend! 🥰
-    //       </>
-    //     }
-    //   ></StyledStack>
-    //   <StyledStack
-    //     height="72em"
-    //     backgroundColor="red.200"
-    //     content={
-    //       <>
-    //         <VStack>
-    //           <Box boxSize="sm">
-    //             <Image loading="lazy" src={friendsExperience} />
-    //           </Box>
-    //           <Box boxSize="sm">
-    //             <Image loading="lazy" src={friendsExperience2} />
-    //           </Box>
-    //         </VStack>
-    //       </>
-    //     }
-    //     headerSize="3xl"
-    //     headerText="Friends Experience 7/2"
-    //     text={
-    //       <>
-    //         The day we went to the Friends Experience! We got to live out being
-    //         on the set of Friends, your favorite show! <br />
-    //         I started watching Friends because of you and I loved it! <br />
-    //         You looked so pretty and I felt so special walking through the set
-    //         with you! <br />I love you more and more everyday baby! 🥰
-    //       </>
-    //     }
-    //   ></StyledStack>
-    //   <StyledStack
-    //     height="58em"
-    //     backgroundColor="orange.200"
-    //     content={
-    //       <>
-    //         <Box boxSize="md" mb={['12em', '14em']}>
-    //           <Image src={sunflowerFields} />
-    //         </Box>
-    //       </>
-    //     }
-    //     headerSize="3xl"
-    //     headerText="Sunflower Fields 8/13"
-    //     text={
-    //       <>
-    //         My beautiful sunflower in a field of sunflowers!! 🌻 <br />
-    //         Our sunflowers turned out so pretty! <br />
-    //         Just like you my love! 😍 <br />I had sooo much fun with you that
-    //         day! I love you! ❤️
-    //       </>
-    //     }
-    //   ></StyledStack>
-    //   <StyledStack
-    //     height="56em"
-    //     backgroundColor="blue.400"
-    //     content={
-    //       <>
-    //         <Box boxSize="md" mb="10em">
-    //           <Image loading="lazy" src={odesza} />
-    //         </Box>
-    //       </>
-    //     }
-    //     headerSize="3xl"
-    //     headerText="ODESZA 9/17"
-    //     text={
-    //       <>
-    //         ODESZA!!! <br />
-    //         This was one of the best shows I've ever seen!!
-    //         <br />
-    //         And it was even better with you baby!! 😘
-    //         <br />
-    //         You are the one I need I love you!
-    //       </>
-    //     }
-    //   ></StyledStack>
-    //   <StyledStack
-    //     height="56em"
-    //     backgroundColor="yellow.400"
-    //     content={
-    //       <>
-    //         <Box boxSize="md" mb="10em">
-    //           <Image src={pumpkinPatch} />
-    //         </Box>
-    //       </>
-    //     }
-    //     headerSize="3xl"
-    //     headerText="Pumpkin Patch 10/8"
-    //     text={
-    //       <>
-    //         We went to look for cute pumpkins,
-    //         <br />
-    //         but I already have the cutest pumpkin in the world!!
-    //         <br />
-    //         I love you pumpkin!!! 🎃🧡😘
-    //         <br />
-    //       </>
-    //     }
-    //   ></StyledStack>
     //   <StyledStack
     //     height="56em"
     //     backgroundColor="purple.400"
