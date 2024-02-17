@@ -13,12 +13,12 @@ import pompomCookie from '../../static/videos/pompom_cookie.gif'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useState } from 'react'
 import { cardData2022 } from './cardData2022'
-import { CardProps } from '../../models/CardProps'
+import { CustomCardProps } from '../../models/CardProps'
 import pompomBg2022 from '../../static/images/pompom_bg_2022.png'
 
 export const TwentyTwentyTwo = () => {
   const [arrayIndex, setArrayIndex] = useState(0)
-  const [items, setItems] = useState<CardProps[]>([
+  const [items, setItems] = useState<CustomCardProps[]>([
     cardData2022[arrayIndex],
     cardData2022[arrayIndex + 1],
   ])
@@ -43,6 +43,8 @@ export const TwentyTwentyTwo = () => {
             <Card
               mt="3em"
               mb="3em"
+              ml="1em"
+              mr="1em"
               maxW="lg"
               justify={'center'}
               key={`card-2022-${index}`}

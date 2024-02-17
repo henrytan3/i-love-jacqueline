@@ -1,5 +1,5 @@
 import { Image } from '@chakra-ui/react'
-import { CardProps } from '../../models/CardProps'
+import { CustomCardProps } from '../../models/CardProps'
 import { boxSizes } from '../../constants/globals'
 import jacquelineWithHugsy from '../../static/images/jacqueline_with_hugsy.jpg'
 import pompomCheeks from '../../static/videos/pompom_cheeks.gif'
@@ -16,7 +16,7 @@ import pumpkinPatch from '../../static/images/pumpkin_patch.jpg'
 import pixarPutt from '../../static/images/pixar_putt.jpg'
 import gingerBreadHouses from '../../static/images/gingerbread_houses.jpg'
 
-export const cardData2022: CardProps[] = [
+export const cardData2022: CustomCardProps[] = [
   {
     headerText: 'Dear Jacqueline',
     content: {

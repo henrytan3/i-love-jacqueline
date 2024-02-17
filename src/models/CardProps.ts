@@ -1,4 +1,4 @@
-export interface CardProps {
+export interface CustomCardProps {
   headerText: string
   content: {
     boxSize: string[]
