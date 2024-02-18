@@ -8,37 +8,8 @@ import {
   CardBody,
   Text,
   Center,
-  SimpleGrid,
 } from '@chakra-ui/react'
-import { StyledStack } from '../shared/styledStack'
-import birthday from '../../static/images/birthday.jpg'
-import homeokase1 from '../../static/images/home_okase_1.jpg'
-import homeokase2 from '../../static/images/home_okase_2.jpg'
-import homeokase3 from '../../static/images/home_okase_3.jpg'
-import homeokase4 from '../../static/images/home_okase_4.jpg'
-import upstairsCircus from '../../static/images/upstairs_circus.jpg'
-import ghibliConcert from '../../static/images/ghibli_concert.jpg'
-import oneYearFlowers from '../../static/images/one_year_flowers.jpg'
-import oneYearDinner from '../../static/images/one_year_dinner.jpg'
-import illenium1 from '../../static/images/illenium1.jpg'
-import illenium2 from '../../static/images/illenium2.jpg'
-import puttShack1 from '../../static/images/putt_shack.jpg'
-import puttShack2 from '../../static/images/putt_shack2.jpg'
-import frenchCroissant from '../../static/images/french_croissant.png'
 import pompomCookie from '../../static/videos/pompom_cookie.gif'
-import artMuseum from '../../static/images/art_museum.jpg'
-import brightLights from '../../static/images/bright_lights.jpg'
-import cuonAndCheesecake from '../../static/images/cuon_and_cheesecake.jpg'
-import vyBirthday from '../../static/images/vy_birthday_2023.jpg'
-import faceMask from '../../static/images/face_mask.jpg'
-import museumOfIllusions1 from '../../static/images/museum_of_illiusions_1.jpg'
-import museumOfIllusions2 from '../../static/images/museum_of_illusions_2.jpg'
-import pumpkinPatch from '../../static/images/pumpkin_patch_2023.jpg'
-import pumpkinCarving2023 from '../../static/images/pumpkin_carving_2023.jpg'
-import daveAndBusters from '../../static/images/dave_and_busters.jpg'
-import buildABear from '../../static/images/build_a_bear.jpg'
-import flowerArranging from '../../static/images/flower_arranging.jpg'
-import gingerBreadHouses from '../../static/images/ginger_bread_houses_2023.jpg'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { cardData2023 } from './cardData2023'
 import { useState } from 'react'
@@ -62,7 +33,6 @@ const TwentyTwentyThree = () => {
   }
 
   return (
-    <>
       <Center backgroundImage={pompomBg2023}>
         <InfiniteScroll
           dataLength={items.length}
@@ -124,30 +94,6 @@ const TwentyTwentyThree = () => {
           })}
         </InfiniteScroll>
       </Center>
-      {/* 
-    
-      <StyledStack
-        height={stackSizeSm}
-        backgroundColor="teal.200"
-        headerSize="4xl"
-        headerText="I love you!!!"
-        content={
-          <Box boxSize={boxSizes} mb="10em">
-            <Image loading="lazy" src={faceMask} />
-          </Box>
-        }
-        text={
-          <>
-            I know we have our ups and downs, <br />
-            but I would do this a billion times <br />
-            just to be with you <br />
-            My eyes only see you <br />
-            My arms only reach out for you <br />
-            My heart is only for you
-          </>
-        }
-      ></StyledStack> */}
-    </>
   )
 }
 
