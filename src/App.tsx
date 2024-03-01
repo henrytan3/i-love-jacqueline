@@ -24,7 +24,7 @@ function App() {
   document.title = 'I love Jacqueline!'
   const password =
     'cae63e8236f3c1de3bcaf9237b1bfaf464864ddf36dcf75695cbc150589b76bc'
-  const [passwordMatched, setPasswordMatched] = useState(true)
+  const [passwordMatched, setPasswordMatched] = useState(false)
   const [passwordValue, setPasswordValue] = useState('')
   const [passwordIncorrect, setPasswordIncorrect] = useState(false)
   const handleChange = (event: any) => setPasswordValue(event.target.value)
