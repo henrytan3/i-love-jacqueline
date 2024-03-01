@@ -1,45 +1,96 @@
 import {
-    Image,
-    Box,
-    VStack,
-    SimpleGrid
-} from "@chakra-ui/react"
-import { StyledStack } from "../shared/styledStack"
-import latteClassVy from "../../static/images/latte_class_vy.jpg"
-import latteClassHenry from "../../static/images/latte_class_henry.jpg"
-import React from "react";
+  Image,
+  Box,
+  VStack,
+  Card,
+  Heading,
+  CardHeader,
+  CardBody,
+  Text,
+  Center,
+} from '@chakra-ui/react'
+import pompomCookie from '../../static/videos/pompom_cookie.gif'
+import InfiniteScroll from 'react-infinite-scroll-component'
+import { cardData2024 } from './cardData2024'
+import { useState } from 'react'
+import { CustomCardProps } from '../../models/CardProps'
+import pompomBg2024 from '../../static/images/pompomwallpaper_2024.jpg'
 
-export const TwentyTwentyFour = () => {
-    const stackSizeSm = [
-        '55em',
-        '56em',
-    ];
-    const boxSizes = [
-        'xs',
-        'sm',
-    ];
+const TwentyTwentyFour = () => {
+  const [arrayIndex, setArrayIndex] = useState(0)
+  const [items, setItems] = useState<CustomCardProps[]>([
+    cardData2024[arrayIndex],
+  ])
 
-    return (
-        <>
-            <StyledStack
-                height='75em'
-                backgroundColor="blue.200"
-                headerSize='4xl'
-                headerText='Espresso Latte Art 1/6'
-                content={
-                    <SimpleGrid columns={{ base: 1, sm: 1, lg: 1 }} gap={4}>
-                        <Box style={{ marginBottom: '0px' }} boxSize={boxSizes} mb='8em'><Image loading="lazy" src={latteClassVy} /></Box>
-                        <Box boxSize={boxSizes} mb='8em'><Image loading="lazy" src={latteClassHenry} /></Box>
-                    </SimpleGrid>
-                }
-                text={<>
-                    Our E date!!!<br />
-                When we went to the latte art class!!! ☕️<br />
-                This was out of order but we had to do this class!<br />
-                Your latte art is so good baby!<br />
-                Time to get an espresso machine and practice hahah 😂
-            </>}
-            ></StyledStack>
-        </>
-    )
+  const handleScroll = () => {
+    items.push(cardData2024[items.length])
+    setItems(items)
+    setArrayIndex(items.length - 1)
+  }
+
+  return (
+    <Center backgroundImage={pompomBg2024}>
+      <InfiniteScroll
+        dataLength={items.length}
+        scrollThreshold={'200px'}
+        hasMore={items.length != cardData2024.length}
+        loader={<img src={pompomCookie} alt="Loading..."></img>}
+        next={handleScroll}
+      >
+        {items.map((item, index) => {
+          return (
+            <Card
+              mt="3em"
+              mb="3em"
+              ml="1em"
+              mr="1em"
+              maxW="lg"
+              justify={'center'}
+              key={`card-2024-${index}`}
+              variant="filled"
+            >
+              <CardHeader>
+                <Heading size="lg">{item.headerText}</Heading>
+              </CardHeader>
+              <CardBody>
+                <VStack>
+                  {item.content.images.map((image: any, index) => {
+                    const fileExtension = image.split('.').pop()
+                    return (
+                      <Box
+                        key={`box-${index}`}
+                        boxSize={item.content.boxSize}
+                        mb={item.content.mb}
+                      >
+                        {(() => {
+                          switch (fileExtension) {
+                            case 'jpg':
+                            case 'png':
+                              return (
+                                <Image
+                                  loading="lazy"
+                                  src={image}
+                                  key={`image-${index}`}
+                                />
+                              )
+                            case 'mp4':
+                              return <video src={image} />
+                            default:
+                              return <div></div>
+                          }
+                        })()}
+                      </Box>
+                    )
+                  })}
+                </VStack>
+                <Text>{item.text}</Text>
+              </CardBody>
+            </Card>
+          )
+        })}
+      </InfiniteScroll>
+    </Center>
+  )
 }
+
+export default TwentyTwentyFour
