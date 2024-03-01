@@ -1,5 +1,5 @@
 import { boxSizes } from '../../constants/globals'
-import { Box, Image, SimpleGrid } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 import { CustomCardProps } from '../../models/CardProps'
 import birthday from '../../static/images/birthday.jpg'
 import homeokase1 from '../../static/images/home_okase_1.jpg'
