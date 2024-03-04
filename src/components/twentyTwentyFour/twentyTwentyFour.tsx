@@ -33,7 +33,7 @@ const TwentyTwentyFour = () => {
       <InfiniteScroll
         dataLength={items.length}
         scrollThreshold={'200px'}
-        hasMore={items.length != cardData2024.length}
+        hasMore={items.length !== cardData2024.length}
         loader={<img src={pompomCookie} alt="Loading..."></img>}
         next={handleScroll}
       >
