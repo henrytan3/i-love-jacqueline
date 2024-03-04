@@ -17,9 +17,6 @@ import { CustomCardProps } from '../../models/CardProps'
 import pompomBg2023 from '../../static/images/pompompurin_bg_2023.jpg'
 
 const TwentyTwentyThree = () => {
-  const stackSizeSm = ['53em', '56em']
-  const boxSizes = ['xs', 'sm']
-
   const [arrayIndex, setArrayIndex] = useState(0)
   const [items, setItems] = useState<CustomCardProps[]>([
     cardData2023[arrayIndex],
