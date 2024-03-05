@@ -75,7 +75,7 @@ export const TwentyTwentyTwo = () => {
                                 />
                               )
                             case 'mp4':
-                              return <video src={image} />
+                              return <video src={image} controls />
                             default:
                               return <div></div>
                           }
