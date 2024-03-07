@@ -66,6 +66,7 @@ export const TwentyTwentyTwo = () => {
                         {(() => {
                           switch (fileExtension) {
                             case 'jpg':
+                            case 'jpeg':
                             case 'png':
                               return (
                                 <Image
