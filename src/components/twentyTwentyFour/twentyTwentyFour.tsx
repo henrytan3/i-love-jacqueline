@@ -65,6 +65,7 @@ const TwentyTwentyFour = () => {
                         {(() => {
                           switch (fileExtension) {
                             case 'jpg':
+                            case 'jpeg':
                             case 'png':
                               return (
                                 <Image

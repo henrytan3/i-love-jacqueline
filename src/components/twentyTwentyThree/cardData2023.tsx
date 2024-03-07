@@ -28,6 +28,8 @@ import daveAndBusters from '../../static/images/dave_and_busters.jpg'
 import buildABear from '../../static/images/build_a_bear.jpg'
 import flowerArranging from '../../static/images/flower_arranging.jpg'
 import gingerBreadHouses from '../../static/images/ginger_bread_houses_2023.jpg'
+import elfOrchestra from '../../static/images/elf_orchestra.jpg'
+import decadence2023 from '../../static/images/decadence_2023.jpeg'
 
 export const cardData2023: CustomCardProps[] = [
   {
@@ -345,6 +347,40 @@ export const cardData2023: CustomCardProps[] = [
         Our gingerbread houses came out really cute this year baby 🎄
         <br />
         The frosting was actually good this year 😂
+      </>
+    ),
+  },
+  {
+    headerText: 'Elf Symphony 12/22',
+    content: {
+      boxSize: boxSizes,
+      mb: '2em',
+      images: [elfOrchestra],
+    },
+    text: (
+      <>
+        When we went to the elf symphony!! 🥰🎅🏻
+        <br />
+        The movie was so cute with the live symphony baby! ☺️
+        <br />
+        Thank you for this date baby!! ❤️
+      </>
+    ),
+  },
+  {
+    headerText: 'Decadence 12/31',
+    content: {
+      boxSize: boxSizes,
+      mb: '2em',
+      images: [decadence2023],
+    },
+    text: (
+      <>
+        When we went to Decadence!! 🎉🪩👯👯‍♀️
+        <br />
+        There is no one else I would rather ring in the new year with! 🥳
+        <br />
+        I love you so much!! And many more years to come! 😘
       </>
     ),
   },
