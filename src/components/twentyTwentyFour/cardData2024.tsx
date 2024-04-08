@@ -4,6 +4,7 @@ import latteClassVy from '../../static/images/latte_class_vy.jpg'
 import latteClassHenry from '../../static/images/latte_class_henry.jpg'
 import littlemanIceCreamTour from '../../static/images/littlemans_tour.jpeg'
 import ukiyo from '../../static/images/ukiyo.jpeg'
+import myBirthday2024 from '../../static/images/my_bỉrthday_2024.jpg'
 
 export const cardData2024: CustomCardProps[] = [
   {
@@ -56,6 +57,22 @@ export const cardData2024: CustomCardProps[] = [
         One of the best omakase's and the best date in the world! 😘 <br />
         Everything was so yummy and the food looked so good! 😋
         <br />I love you so much my forever Valentine! ❤️❤️❤️
+      </>
+    ),
+  },
+  {
+    headerText: 'My birthday 3/8',
+    content: {
+      boxSize: boxSizes,
+      mb: '13em',
+      images: [myBirthday2024],
+    },
+    text: (
+      <>
+        My 29th birthday! <br />
+        I'm so grateful I get to spend another birthday with you baby! 🥰 <br />
+        Many many more to come! ❤️
+        <br />I love you so much! ❤️❤️❤️
       </>
     ),
   },
