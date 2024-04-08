@@ -4,7 +4,7 @@ import latteClassVy from '../../static/images/latte_class_vy.jpg'
 import latteClassHenry from '../../static/images/latte_class_henry.jpg'
 import littlemanIceCreamTour from '../../static/images/littlemans_tour.jpeg'
 import ukiyo from '../../static/images/ukiyo.jpeg'
-import myBirthday2024 from '../../static/images/my_bỉrthday_2024.jpg'
+import myBirthday2024 from '../../static/images/my_birthday_2024.jpg'
 
 export const cardData2024: CustomCardProps[] = [
   {
