@@ -5,6 +5,9 @@ import latteClassHenry from '../../static/images/latte_class_henry.jpg'
 import littlemanIceCreamTour from '../../static/images/littlemans_tour.jpeg'
 import ukiyo from '../../static/images/ukiyo.jpeg'
 import myBirthday2024 from '../../static/images/my_birthday_2024.jpg'
+import nuggetsGame from '../../static/images/nuggets_game.jpg'
+import twoYearAnniversary from '../../static/images/2year_anniversary.jpg'
+import jewelryMaking from '../../static/images/jewelry_making.jpg'
 
 export const cardData2024: CustomCardProps[] = [
   {
@@ -73,6 +76,52 @@ export const cardData2024: CustomCardProps[] = [
         I'm so grateful I get to spend another birthday with you baby! 🥰 <br />
         Many many more to come! ❤️
         <br />I love you so much! ❤️❤️❤️
+      </>
+    ),
+  },
+  {
+    headerText: 'Nuggets Game 5/6',
+    content: {
+      boxSize: boxSizes,
+      mb: '13em',
+      images: [nuggetsGame],
+    },
+    text: (
+      <>
+        Nuggets playoff game! <br />
+        Thank you for taking me to the nuggets game baby! 🥰 <br />
+        Even though the nuggets lost I still won because I'm with you!
+      </>
+    ),
+  },
+  {
+    headerText: '2 year annivesary 5/7',
+    content: {
+      boxSize: boxSizes,
+      mb: '13em',
+      images: [twoYearAnniversary],
+    },
+    text: (
+      <>
+        Our two year anniversary!!! 🥳🥰
+        <br />
+        Thank you for showing me so much love in 2 years baby! <br />
+        Thank you for coming into my life and showing me what love is supposed
+        to be like <br />I love you
+      </>
+    ),
+  },
+  {
+    headerText: 'Jewely Making 5/10',
+    content: {
+      boxSize: boxSizes,
+      mb: '13em',
+      images: [jewelryMaking],
+    },
+    text: (
+      <>
+        Our J date!! 💍 We made rings that will last forever just like us! ☺️
+        This was such a fun experience I will wear my ring forever!! ❤️
       </>
     ),
   },
