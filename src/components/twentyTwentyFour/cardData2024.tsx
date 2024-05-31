@@ -112,7 +112,7 @@ export const cardData2024: CustomCardProps[] = [
     ),
   },
   {
-    headerText: 'Jewely Making 5/10',
+    headerText: 'Jewelry Making 5/10',
     content: {
       boxSize: boxSizes,
       mb: '13em',
