@@ -8,6 +8,8 @@ import myBirthday2024 from '../../static/images/my_birthday_2024.jpg'
 import nuggetsGame from '../../static/images/nuggets_game.jpg'
 import twoYearAnniversary from '../../static/images/2year_anniversary.jpg'
 import jewelryMaking from '../../static/images/jewelry_making.jpg'
+import peoniePicking from '../../static/images/peonie_picking.jpeg'
+import horseBackRiding from '../../static/images/horseback_riding.jpeg'
 
 export const cardData2024: CustomCardProps[] = [
   {
@@ -122,6 +124,36 @@ export const cardData2024: CustomCardProps[] = [
       <>
         Our J date!! 💍 We made rings that will last forever just like us! ☺️
         This was such a fun experience I will wear my ring forever!! ❤️
+      </>
+    ),
+  },
+  {
+    headerText: 'Peonie Picking 6/1',
+    content: {
+      boxSize: boxSizes,
+      mb: '13em',
+      images: [peoniePicking],
+    },
+    text: (
+      <>
+        Peonie and picnic! 🌺🌸 I know peonies are your favorite flower so when
+        I saw this I had to take you baby ❤️❤️ You're so talented at arranging
+        flowers There is no flower prettier than you though 😍
+      </>
+    ),
+  },
+  {
+    headerText: 'Horseback Riding 7/19',
+    content: {
+      boxSize: boxSizes,
+      mb: '2em',
+      images: [horseBackRiding],
+    },
+    text: (
+      <>
+        Our H date! Horseback riding is something we both never done before but
+        you were brave and got on a horse! 🐴 Thank you Shaggy and Thor! They
+        were good horses! 🐎
       </>
     ),
   },
