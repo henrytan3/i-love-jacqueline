@@ -17,8 +17,8 @@ import {
   InputGroup,
   SimpleGrid,
 } from '@chakra-ui/react'
-import Home from './components/Home'
 import pompomGIF from '../src/static/images/pompom.gif'
+import MainRouter from './router/router'
 
 function App() {
   document.title = 'I love Jacqueline!'
@@ -93,7 +93,7 @@ function App() {
           </AlertDialogContent>
         </AlertDialogOverlay>
       </AlertDialog>
-      {passwordMatched && <Home />}
+      {passwordMatched && <MainRouter />}
     </div>
   )
 }

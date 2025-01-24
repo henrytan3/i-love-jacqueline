@@ -14,9 +14,9 @@ import {
   VStack,
 } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
-import { TwentyTwentyTwo } from './twentyTwentyTwo/twentyTwentyTwo'
-import TwentyTwentyThree from './twentyTwentyThree/twentyTwentyThree'
-import TwentyTwentyFour from './twentyTwentyFour/twentyTwentyFour'
+import { TwentyTwentyTwo } from '../components/twentyTwentyTwo/twentyTwentyTwo'
+import TwentyTwentyThree from '../components/twentyTwentyThree/twentyTwentyThree'
+import TwentyTwentyFour from '../components/twentyTwentyFour/twentyTwentyFour'
 
 const Home = () => {
   const [selectedYear, setSelectedYear] = useState(2022)
