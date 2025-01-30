@@ -34,12 +34,13 @@ const Valentine = () => {
     setNoCheckBoxState(false)
   }
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
-    setPosition({
-      top: `calc(50% - ${elementSize.height / 2}px)`,
-      left: `calc(50% - ${elementSize.width / 2}px)`,
-    })
+    if (elementSize.width > 0 && elementSize.height > 0) {
+      setPosition({
+        top: `calc(50% - ${elementSize.height / 2}px)`,
+        left: `calc(50% - ${elementSize.width / 2}px)`,
+      })
+    }
   }, [])
 
   return (
