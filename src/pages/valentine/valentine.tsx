@@ -41,7 +41,7 @@ const Valentine = () => {
         left: `calc(50% - ${elementSize.width / 2}px)`,
       })
     }
-  }, [])
+  }, [elementSize.height, elementSize.width])
 
   return (
     <Flex direction="column" height="100vh" bg="pink.200" position="relative">
