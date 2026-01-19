@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Home from '../pages/Home'
 import Valentine from '../pages/valentine/valentine'
 import ValentineSuccess from '../pages/valentine/valentine-success'
@@ -6,7 +6,7 @@ import Valentine2026 from '../pages/valentine-2026/valentine-2026'
 
 const MainRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/i-love-jacqueline" element={<Home />} />
         <Route path="/i-love-jacqueline/valentine" element={<Valentine />} />
@@ -19,7 +19,7 @@ const MainRouter = () => {
           element={<ValentineSuccess />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
