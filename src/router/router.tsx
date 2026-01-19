@@ -8,16 +8,12 @@ const MainRouter = () => {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/i-love-jacqueline" element={<Home />} />
-        <Route path="/i-love-jacqueline/valentine" element={<Valentine />} />
-        <Route
-          path="/i-love-jacqueline/valentine-2026"
-          element={<Valentine2026 />}
-        />
-        <Route
-          path="/i-love-jacqueline/valentine/success"
-          element={<ValentineSuccess />}
-        />
+        <Route path="/i-love-jacqueline" element={<Home />}>
+          <Route path="valentine" element={<Valentine />} />
+          <Route path="valentine-2026" element={<Valentine2026 />} />
+          <Route path="valentine/success" element={<ValentineSuccess />} />
+        </Route>
+        <Route path="*" element={<h1>404</h1>} />
       </Routes>
     </HashRouter>
   )

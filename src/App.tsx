@@ -19,6 +19,7 @@ import {
 } from '@chakra-ui/react'
 import pompomGIF from '../src/static/images/pompom.gif'
 import MainRouter from './router/router'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   document.title = 'I love Jacqueline!'
@@ -94,6 +95,7 @@ function App() {
         </AlertDialogOverlay>
       </AlertDialog>
       {passwordMatched && <MainRouter />}
+      <Outlet />
     </div>
   )
 }
